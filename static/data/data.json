@@ -1,0 +1,87 @@
+{
+	"trips": [
+		{
+			"id": "japon-2025",
+			"name": "Japon 2025",
+			"startDate": "05/08/2025",
+			"days": [
+				{
+					"date": "05/08/2025",
+					"steps": [
+						{
+							"type": "transport",
+							"title": "Arrivée à Aomori",
+							"time": "15:00",
+							"note": "Vol direct depuis Paris",
+							"price": "850€",
+							"address": "Aéroport d'Aomori",
+							"map": "https://maps.google.com/..."
+						},
+						{
+							"type": "activity",
+							"title": "Départ d'Aomori",
+							"time": "20:00",
+							"note": "Vol direct depuis Paris",
+							"price": "150€",
+							"address": "Aéroport d'Aomori",
+							"map": "https://maps.google.com/..."
+						}
+					]
+				},
+				{
+					"date": "06/08/2025",
+					"steps": [
+						{
+							"type": "activity",
+							"title": "Neputa Matsuri",
+							"time": "19:00",
+							"note": "Grand festival de lanternes"
+						}
+					]
+				},
+				{
+					"date": "07/08/2025",
+					"steps": [
+						{
+							"type": "activity",
+							"title": "Neputa Matsuri",
+							"time": "19:00",
+							"note": "Grand festival de lanternes"
+						}
+					]
+				},
+				{
+					"date": "08/08/2025",
+					"steps": [
+						{
+							"type": "activity",
+							"title": "Neputa Matsuri",
+							"time": "19:00",
+							"note": "Grand festival de lanternes"
+						}
+					]
+				}
+			],
+			"accommodation": [
+				{
+					"name": "Hotel Aomori",
+					"from": "05/08/2025",
+					"to": "07/08/2025",
+					"address": "1-1-1 Aomori",
+					"price": "120€/night",
+					"map": "https://maps.google.com/...",
+					"note": "Petit dej inclus"
+				},
+				{
+					"name": "Hotel Tokyo",
+					"from": "07/08/2025",
+					"to": "11/08/2025",
+					"address": "1-1-1 Aomori",
+					"price": "120€/night",
+					"map": "https://maps.google.com/...",
+					"note": "Petit dej inclus"
+				}
+			]
+		}
+	]
+}
