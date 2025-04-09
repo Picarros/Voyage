@@ -10,6 +10,7 @@
 		const response = await fetch(`${base}/data/data.json`);
 		if (response.ok) {
 			data = await response.json();
+			tripId = data.trips[0].id;
 		} else {
 			console.error('Failed to fetch data:', response.status);
 		}
@@ -27,7 +28,6 @@
 	<!-- Sélection du voyage -->
 	<div class="row mb-5">
 		<select class="form-select" bind:value={tripId}>
-			<option value="" disabled selected>Choisissez un voyage</option>
 			{#each data?.trips ?? [] as v}
 				<option value={v.id}>{v.name}</option>
 			{/each}
