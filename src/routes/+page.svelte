@@ -1,6 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
     import { base } from '$app/paths';
+	import Calendar from '$lib/components/Calendar.svelte';
+	import Day from '$lib/components/Day.svelte';
 
 	let data;
 	let tripId = '';
@@ -16,12 +18,12 @@
 		}
 	});
 
-    function getDate(date){
-        const [day, month, year] = date.split('/');
-        return new Date(`${year}-${month}-${day}`);
-    }
-
 	$: trip = data?.trips.find((v) => v.id === tripId);
+
+	function getAccommodation(date){
+		let d = new Date(date);
+		return trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
+	}
 </script>
 
 <div class="container">
@@ -40,6 +42,7 @@
 			<div class="row">
 				<div class="accordion" id="accordion{dayIndex}">
 					<div class="accordion-item">
+						<!-- Date -->
 						<h2 class="accordion-header" id="header{dayIndex}">
 							<button
 								class="accordion-button"
@@ -49,14 +52,10 @@
 								aria-expanded="true"
 								aria-controls="collapse{dayIndex}"
 							>
-								📅 {new Date(getDate(day.date)).toLocaleDateString('fr-FR', {
-                                    weekday: 'long',
-                                    day: 'numeric',
-                                    month: 'long',
-                                    year: 'numeric'
-                                  })}
+								<Calendar date={day.date}/>
 							</button>
 						</h2>
+						<!-- Contenu -->
 						<div
 							id="collapse{dayIndex}"
 							class="accordion-collapse collapse show"
@@ -64,12 +63,7 @@
 							data-bs-parent="#accordion{dayIndex}"
 						>
 							<div class="accordion-body">
-								<strong>This is the first item's accordion body.</strong> It is shown by default,
-								until the collapse plugin adds the appropriate classes that we use to style each
-								element. These classes control the overall appearance, as well as the showing and
-								hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-								our default variables. It's also worth noting that just about any HTML can go within
-								the <code>.accordion-body</code>, though the transition does limit overflow.
+								<Day steps={day.steps} accommodation={getAccommodation(day.date)} countryCurrency={trip.currency} />
 							</div>
 						</div>
 					</div>

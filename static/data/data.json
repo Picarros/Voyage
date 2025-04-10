@@ -3,10 +3,11 @@
 		{
 			"id": "japon-2025",
 			"name": "Japon 2025",
-			"startDate": "05/08/2025",
+            "currency": "JPY",
+			"startDate": "2025-08-05",
 			"days": [
 				{
-					"date": "05/08/2025",
+					"date": "2025-08-05",
 					"steps": [
 						{
 							"type": "transport",
@@ -29,7 +30,7 @@
 					]
 				},
 				{
-					"date": "06/08/2025",
+					"date": "2025-08-06",
 					"steps": [
 						{
 							"type": "activity",
@@ -40,7 +41,7 @@
 					]
 				},
 				{
-					"date": "07/08/2025",
+					"date": "2025-08-07",
 					"steps": [
 						{
 							"type": "activity",
@@ -51,7 +52,7 @@
 					]
 				},
 				{
-					"date": "08/08/2025",
+					"date": "2025-08-08",
 					"steps": [
 						{
 							"type": "activity",
@@ -62,24 +63,26 @@
 					]
 				}
 			],
-			"accommodation": [
+			"accommodations": [
 				{
-					"name": "Hotel Aomori",
-					"from": "05/08/2025",
-					"to": "07/08/2025",
-					"address": "1-1-1 Aomori",
-					"price": "120€/night",
-					"map": "https://maps.google.com/...",
-					"note": "Petit dej inclus"
+					"name": "Aomori Horizon",
+					"from": "2025-08-05",
+					"to": "2025-08-07",
+					"address": "2-chōme-6-26 Tsutsui, Aomori, 030-0944, Japon",
+					"price": "794.95",
+					"currency": "EUR",
+					"map": "https://maps.app.goo.gl/hPPdizMxdytoZGNR7",
+					"note": "Remplir le google form : https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link"
 				},
 				{
-					"name": "Hotel Tokyo",
-					"from": "07/08/2025",
-					"to": "11/08/2025",
-					"address": "1-1-1 Aomori",
-					"price": "120€/night",
-					"map": "https://maps.google.com/...",
-					"note": "Petit dej inclus"
+					"name": "Mori Hotel Akihabara",
+					"from": "2025-08-07",
+					"to": "2025-08-11",
+					"address": "1-2-13 Kanda Izumicho, Chiyoda City, Tokyo 101-0024, Japon",
+					"price": "123000",
+                    "currency": "JPY",
+					"map": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
+					"note": ""
 				}
 			]
 		}
