@@ -15,13 +15,24 @@
 		{#each steps as step, stepIndex}
 			<div class="row align-self-center">
 				<div class="col-2">
-					<Bullet top={stepIndex != 0} bottom={stepIndex != steps.length - 1 || accommodation != undefined} icon="" />
+					<Bullet top={stepIndex != 0} bottom={stepIndex != steps.length - 1 || accommodation != undefined} icon="{step.type}" />
 				</div>
 				<div class="col-10">
-					<p>
-						<span class="fw-bold">{step.title}</span>
-					</p>
-					<p>Détail</p>
+                    <p>
+                        <span class="fw-bold">
+                            {step.title}
+                        </span>
+                        <span>
+                            (<Price
+                                price={step.price}
+                                currency={step.currency}
+                                {countryCurrency}
+                            />)
+                        </span>
+                    </p>
+                    <p>
+                        <Address address={step.address} />
+                    </p>
 					<hr class="m-0 border border-primary opacity-75" />
 				</div>
 			</div>

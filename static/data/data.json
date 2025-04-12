@@ -6,6 +6,20 @@
             "currency": "JPY",
 			"startDate": "2025-08-05",
 			"days": [
+                {
+                    "date": "2025-08-04",
+                    "steps": [
+                        {
+                            "type": "takeoff",
+                            "title": "Décollage de Paris Charles de Gaulle",
+                            "time": "09:20",
+                            "note": "Prévoir de venir 3h à l'avance",
+                            "price": "1480",
+                            "currency": "EUR",
+                            "address": "6 rue des bruyères BP 81007 95931 Roissy Charles de Gaulle Cedex"
+                        }
+                    ]
+                },
 				{
 					"date": "2025-08-05",
 					"steps": [
