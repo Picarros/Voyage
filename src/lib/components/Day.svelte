@@ -1,5 +1,5 @@
 <script>
-	import Map from '$lib/components/Map.svelte';
+	import Address from '$lib/components/Address.svelte';
 	import Price from '$lib/components/Price.svelte';
 
 	export let steps;
@@ -58,17 +58,7 @@
                     </span>
                 </p>
                 <p>
-                    <a
-                        class="fst-italic"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.google.com/maps/place/{accommodation.address}"
-                    >
-                        {accommodation.address}
-                    </a>
-                    <span>
-                        <!-- <Map url={accommodation.map} /> -->
-                    </span>
+                    <Address address={accommodation.address} />
                 </p>
             </div>
 		</div>
