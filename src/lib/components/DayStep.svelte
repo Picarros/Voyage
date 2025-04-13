@@ -11,16 +11,12 @@
 	export let countryCurrency;
 </script>
 
-<div class="row align-self-center">
-    <div class="col-1 p-0">
+<div class="row align-self-center flex-nowrap">
+    <div class="col-1 p-0" style="min-width: 30px;">
         <Time time={step.time} utc={step.utc} />
     </div>
-    <div class="col-1 p-0">
-        <Bullet
-            top={top}
-            bottom={bottom}
-            icon={step.type}
-        />
+    <div class="col-1 p-0" style="min-width: 30px;">
+        <Bullet top={top} bottom={bottom} icon={step.type} />
     </div>
     <div class="col-10 p-0 px-2">
         <p class="m-0">
