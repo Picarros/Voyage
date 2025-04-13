@@ -55,16 +55,10 @@
 
 {#if priceEUR && priceCUR}
 	<span style="font-size: 0.8rem;" class="fst-italic">
-		(
-		<span class={currency == 'EUR' ? 'text-decoration-underline' : ''}>
-			{priceEUR}
-		</span>
-		{#if countryCurrency != 'EUR'}
-			<span> / </span>
-			<span class={currency != 'EUR' ? 'text-decoration-underline' : ''}>
-				{priceCUR}
-			</span>
-		{/if}
-		)
+		(<span class={currency == 'EUR' ? 'text-decoration-underline' : ''}>{priceEUR}</span>
+		{#if countryCurrency != 'EUR'} / 
+			<span class={currency != 'EUR' ? 'text-decoration-underline' : ''}>{priceCUR}</span>
+		{/if})
 	</span>
 {/if}
+

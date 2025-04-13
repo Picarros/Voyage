@@ -32,15 +32,15 @@
 	<!-- Cercle -->
 	<div
 		class="position-absolute top-50 start-50 translate-middle"
-		style={`width: 25px; height: 25px; background-color: ${color}; border-radius: 50%;`}
+		style={`width: 20px; height: 20px; background-color: ${color}; border-radius: 50%;`}
 	></div>
 	<!-- Icones -->
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		class="position-absolute top-50 start-50 translate-middle"
-		height="20px"
+		height="15px"
 		viewBox="0 -960 960 960"
-		width="20px"
+		width="15px"
 		fill="#FFFFFF"
 	>
 		{#if Compare(icon, 'bed') || Compare(icon, 'hotel') || Compare(icon, 'accommodation')}
