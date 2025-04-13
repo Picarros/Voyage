@@ -54,17 +54,17 @@
 </script>
 
 {#if priceEUR && priceCUR}
-	<span class="{currency == 'EUR' ? 'text-decoration-underline' : ''}">
-		{priceEUR}
-    </span>
-    {#if countryCurrency != 'EUR'}
-    <span>
-        /
-    </span>
-    <span class="{currency != 'EUR' ? 'text-decoration-underline' : ''}">
-		{priceCUR}
-    </span>
-	{/if}
-{:else}
-	<span>Chargement...</span>
+	<span style="font-size: 0.8rem;" class="fst-italic">
+		(
+		<span class={currency == 'EUR' ? 'text-decoration-underline' : ''}>
+			{priceEUR}
+		</span>
+		{#if countryCurrency != 'EUR'}
+			<span> / </span>
+			<span class={currency != 'EUR' ? 'text-decoration-underline' : ''}>
+				{priceCUR}
+			</span>
+		{/if}
+		)
+	</span>
 {/if}

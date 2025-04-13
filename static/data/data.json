@@ -4,6 +4,7 @@
 			"id": "japon-2025",
 			"name": "Japon 2025",
             "currency": "JPY",
+            "utc": "+9",
 			"startDate": "2025-08-05",
 			"days": [
                 {
@@ -11,12 +12,13 @@
                     "steps": [
                         {
                             "type": "takeoff",
-                            "title": "Décollage de Paris Charles de Gaulle",
-                            "time": "09:20",
+                            "title": "Décollage Paris Charles de Gaulle, Terminal 2E",
+                            "time": "09:30",
+                            "utc": "+2",
                             "note": "Prévoir de venir 3h à l'avance",
-                            "price": "1480",
+                            "price": "1227.37",
                             "currency": "EUR",
-                            "address": "6 rue des bruyères BP 81007 95931 Roissy Charles de Gaulle Cedex"
+                            "address": "Aéroport Charles de Gaulle, Terminal 2E"
                         }
                     ]
                 },
@@ -24,22 +26,65 @@
 					"date": "2025-08-05",
 					"steps": [
 						{
-							"type": "transport",
-							"title": "Arrivée à Aomori",
-							"time": "15:00",
-							"note": "Vol direct depuis Paris",
-							"price": "850€",
-							"address": "Aéroport d'Aomori",
-							"map": "https://maps.google.com/..."
+							"type": "landing",
+							"title": "Atterrissage Tokyo Haneda, Terminal 3",
+							"time": "05:55",
+                            "utc": "+9",
+							"address": "https://maps.app.goo.gl/aey55D7NDr9dvME6A",
+                            "danger": "Changer de terminal !"
 						},
-						{
-							"type": "activity",
-							"title": "Départ d'Aomori",
-							"time": "20:00",
-							"note": "Vol direct depuis Paris",
-							"price": "150€",
-							"address": "Aéroport d'Aomori",
-							"map": "https://maps.google.com/..."
+                        {
+							"type": "takeoff",
+							"title": "Décollage Tokyo Haneda, Terminal 1",
+							"time": "10:05",
+                            "utc": "+9",
+							"address": "https://maps.app.goo.gl/fjnVh31ooG1f3zpCA",
+                            "danger": "Changer de terminal !"
+						},
+                        {
+							"type": "landing",
+							"title": "Atterrissage Aomori",
+							"time": "11:20",
+                            "utc": "+9",
+							"address": "Aomori Airport"
+						},
+                        {
+							"type": "bus",
+							"title": "Aller à Aomori",
+							"address": "https://maps.app.goo.gl/HSqKpdseqhy19L6Q9",
+                            "price": "860",
+                            "currency": "JPY",
+                            "note": "Déposer les valises à la gare ? Ou aller directement au Airbnb ?"
+						},
+                        {
+							"type": "museum",
+							"title": "Musée des Nebuta",
+							"address": "Maison Nebuta Warasse",
+                            "price": "620",
+                            "currency": "JPY",
+                            "note": "Sûrement pas mal de commencer par ça pour comprendre"
+						},
+                        {
+							"type": "museum",
+							"title": "Voir stockage chars",
+							"address": "Nebuta Hut Rasse Land"
+						},
+                        {
+							"type": "festival",
+							"title": "Nebuta Matsuri Festival",
+                            "time": "19:00",
+                            "utc": "+9",
+							"address": "https://maps.app.goo.gl/ngNbxguUv2iZQSB38",
+                            "note":  "Informations : <a href=\"https://www.nebuta.jp/foreign/english.html\" target=\"_blank\">ici</a>",
+                            "danger": "Arriver 1h avant pour trouver un bon spot. Premier départ à 19h ?!"
+						},
+                        {
+							"type": "train",
+							"title": "Aller à l'appartement",
+							"address": "Tsutsui Station Aomori",
+                            "price": "260",
+                            "currency": "JPY",
+                            "danger": "Dernier train à 22h58"
 						}
 					]
 				},
@@ -48,9 +93,18 @@
 					"steps": [
 						{
 							"type": "activity",
-							"title": "Neputa Matsuri",
-							"time": "19:00",
-							"note": "Grand festival de lanternes"
+							"title": "Neputa Matsuri Festival",
+							"time": "19:00"
+						},
+                        {
+							"type": "activity",
+							"title": "Neputa Matsuri Festival",
+							"time": "19:00"
+						},
+                        {
+							"type": "activity",
+							"title": "Neputa Matsuri Festival",
+							"time": "19:00"
 						}
 					]
 				},
@@ -79,24 +133,24 @@
 			],
 			"accommodations": [
 				{
-					"name": "Aomori Horizon",
+                    "type": "hotel",
+					"title": "Aomori Horizon",
 					"from": "2025-08-05",
 					"to": "2025-08-07",
 					"address": "2-chōme-6-26 Tsutsui, Aomori, 030-0944, Japon",
 					"price": "794.95",
 					"currency": "EUR",
-					"map": "https://maps.app.goo.gl/hPPdizMxdytoZGNR7",
-					"note": "Remplir le google form : https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link"
+					"note": "Check-in en autonomie à partir de 15h. Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
 				},
 				{
-					"name": "Mori Hotel Akihabara",
+                    "type": "hotel",
+					"title": "Mori Hotel Akihabara",
 					"from": "2025-08-07",
 					"to": "2025-08-11",
 					"address": "1-2-13 Kanda Izumicho, Chiyoda City, Tokyo 101-0024, Japon",
 					"price": "123000",
                     "currency": "JPY",
-					"map": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
-					"note": ""
+					"note": "Sanko Building"
 				}
 			]
 		}

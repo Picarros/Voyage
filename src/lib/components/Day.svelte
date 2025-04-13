@@ -1,65 +1,31 @@
 <script>
 	import Bullet from '$lib/components/Bullet.svelte';
+	import Time from '$lib/components/Time.svelte';
+	import Note from '$lib/components/Note.svelte';
 	import Address from '$lib/components/Address.svelte';
 	import Price from '$lib/components/Price.svelte';
+	import DayStep from './DayStep.svelte';
 
 	export let steps;
 	export let accommodation;
 	export let countryCurrency;
-
-    console.log(steps.length - 1);
 </script>
 
 <div class="container">
 	{#if steps}
 		{#each steps as step, stepIndex}
-			<div class="row align-self-center">
-				<div class="col-2">
-					<Bullet top={stepIndex != 0} bottom={stepIndex != steps.length - 1 || accommodation != undefined} icon="{step.type}" />
-				</div>
-				<div class="col-10">
-                    <p>
-                        <span class="fw-bold">
-                            {step.title}
-                        </span>
-                        <span>
-                            (<Price
-                                price={step.price}
-                                currency={step.currency}
-                                {countryCurrency}
-                            />)
-                        </span>
-                    </p>
-                    <p>
-                        <Address address={step.address} />
-                    </p>
-					<hr class="m-0 border border-primary opacity-75" />
-				</div>
-			</div>
+			<DayStep
+				top={stepIndex != 0}
+				bottom={stepIndex != steps.length - 1 || accommodation != undefined}
+				step={step}
+				countryCurrency={countryCurrency}
+			/>
 		{/each}
 	{/if}
 	{#if accommodation}
-		<div class="row align-self-center">
-			<div class="col-2">
-				<Bullet top={true} bottom={false} icon="bed" />
-			</div>
-			<div class="col-10">
-				<p>
-					<span class="fw-bold">
-						{accommodation.name}
-					</span>
-					<span>
-						(<Price
-							price={accommodation.price}
-							currency={accommodation.currency}
-							{countryCurrency}
-						/>)
-					</span>
-				</p>
-				<p>
-					<Address address={accommodation.address} />
-				</p>
-			</div>
-		</div>
+		<DayStep top={true} 
+                bottom={false} 
+                step={accommodation} 
+                countryCurrency={countryCurrency} />
 	{/if}
 </div>

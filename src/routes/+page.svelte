@@ -62,7 +62,7 @@
 							aria-labelledby="header{dayIndex}"
 							data-bs-parent="#accordion{dayIndex}"
 						>
-							<div class="accordion-body">
+							<div class="accordion-body p-0">
 								<Day steps={day.steps} accommodation={getAccommodation(day.date)} countryCurrency={trip.currency} />
 							</div>
 						</div>
