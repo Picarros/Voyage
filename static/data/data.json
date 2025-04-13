@@ -92,30 +92,17 @@
 					"date": "2025-08-06",
 					"steps": [
 						{
-							"type": "activity",
-							"title": "Neputa Matsuri Festival",
-							"time": "19:00"
-						},
-                        {
-							"type": "activity",
-							"title": "Neputa Matsuri Festival",
-							"time": "19:00"
-						},
-                        {
-							"type": "activity",
-							"title": "Neputa Matsuri Festival",
-							"time": "19:00"
-						}
+							"type": "",
+							"title": "Hirosaki"
+                        }
 					]
 				},
 				{
 					"date": "2025-08-07",
 					"steps": [
 						{
-							"type": "activity",
-							"title": "Neputa Matsuri",
-							"time": "19:00",
-							"note": "Grand festival de lanternes"
+							"type": "",
+							"title": "Tokyo"
 						}
 					]
 				},
@@ -123,11 +110,158 @@
 					"date": "2025-08-08",
 					"steps": [
 						{
-							"type": "activity",
-							"title": "Neputa Matsuri",
-							"time": "19:00",
-							"note": "Grand festival de lanternes"
+							"type": "",
+							"title": "Nikko"
 						}
+					]
+				},
+				{
+					"date": "2025-08-09",
+					"steps": [
+						{
+							"type": "",
+							"title": "Tokyo"
+						}
+					]
+				},
+				{
+					"date": "2025-08-10",
+					"steps": [
+						{
+							"type": "",
+							"title": "Tokyo"
+						}
+					]
+				},
+				{
+					"date": "2025-08-11",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-12",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-13",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-14",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-15",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-16",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kyoto"
+						}
+					]
+				},
+				{
+					"date": "2025-08-17",
+					"steps": [
+						{
+							"type": "",
+							"title": "Kanazawa"
+						}
+					]
+				},
+				{
+					"date": "2025-08-18",
+					"steps": [
+						{
+							"type": "",
+							"title": "Shibu-onsen"
+						}
+					]
+				},
+				{
+					"date": "2025-08-19",
+					"steps": [
+						{
+							"type": "",
+							"title": "Shibu-onsen"
+						}
+					]
+				},
+				{
+					"date": "2025-08-20",
+					"steps": [
+						{
+							"type": "",
+							"title": "Tokyo"
+						}
+					]
+				},
+				{
+					"date": "2025-08-21",
+					"steps": [
+						{
+							"type": "",
+							"title": "Tokyo"
+						}
+					]
+				},
+				{
+					"date": "2025-08-22",
+					"steps": [
+                        {
+							"type": "",
+							"title": "Tokyo"
+						},
+                        {
+                            "type": "takeoff",
+                            "title": "Décollage Tokyo Haneda, Terminal 3",
+                            "time": "22:05",
+                            "utc": "+9",
+                            "note": "Prévoir de venir 3h à l'avance",
+                            "price": "1227.37",
+                            "currency": "EUR",
+							"address": "https://maps.app.goo.gl/aey55D7NDr9dvME6A"
+                        }
+					]
+				},
+				{
+					"date": "2025-08-23",
+					"steps": [
+                        {
+                            "type": "landing",
+                            "title": "Atterrissage Paris Charles de Gaulle, Terminal 2E",
+                            "time": "06:00",
+                            "utc": "+2",
+                            "currency": "EUR",
+                            "address": "Aéroport Charles de Gaulle, Terminal 2E"
+                        }
 					]
 				}
 			],
@@ -137,7 +271,7 @@
 					"title": "Aomori Horizon",
 					"from": "2025-08-05",
 					"to": "2025-08-07",
-					"address": "2-chōme-6-26 Tsutsui, Aomori, 030-0944, Japon",
+					"address": "https://maps.app.goo.gl/PAFfQr9hNTgdT4hX8",
 					"price": "794.95",
 					"currency": "EUR",
 					"note": "Check-in en autonomie à partir de 15h. Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
@@ -147,10 +281,61 @@
 					"title": "Mori Hotel Akihabara",
 					"from": "2025-08-07",
 					"to": "2025-08-11",
-					"address": "1-2-13 Kanda Izumicho, Chiyoda City, Tokyo 101-0024, Japon",
+					"address": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
 					"price": "123000",
                     "currency": "JPY",
 					"note": "Sanko Building"
+				},
+				{
+                    "type": "hotel",
+					"title": "Takeya Gojo",
+					"from": "2025-08-11",
+					"to": "2025-08-17",
+					"address": "https://maps.app.goo.gl/5vrW4xtnjyAqqLaeA",
+					"price": "1869",
+                    "currency": "EUR",
+					"note": "Gion complet"
+				},
+				{
+                    "type": "hotel",
+					"title": "The Square Hotel Kanazawa",
+					"from": "2025-08-17",
+					"to": "2025-08-18",
+					"address": "https://maps.app.goo.gl/U3gJEFCimwFuihrp9",
+					"price": "176",
+                    "currency": "EUR",
+					"note": "Onsen à l'intérieur de l'hôtel"
+				},
+				{
+                    "type": "hotel",
+					"title": "Daymaruya Ryokan",
+					"from": "2025-08-18",
+					"to": "2025-08-19",
+					"address": "https://maps.app.goo.gl/LTz2TUUBjiL84piB6",
+					"price": "153",
+                    "currency": "EUR",
+					"note": "Disponible dès 13h, récupération depuis la gare !<br>Demander le petit-déjeuner à l'avance.",
+                    "danger": "Demander si on peut laisser les valises de 10h à 15h le temps de changer de Ryokan"
+				},
+				{
+                    "type": "hotel",
+					"title": "Kanaguya",
+					"from": "2025-08-19",
+					"to": "2025-08-20",
+					"address": "https://maps.app.goo.gl/aWx6BqDooVCeS6vZA",
+					"price": "105500",
+                    "currency": "JPY",
+					"note": "Disponible dès 15h.<br>Diner et petit-déjeuner inclut.<br> Contact : <a href=\"mailto:connie@elitetoursint.com\" target=\"_blank\">connie@elitetoursint.com</a>"
+				},
+				{
+                    "type": "hotel",
+					"title": "Tokyo",
+					"from": "2025-08-20",
+					"to": "2025-08-22",
+					"address": "Tokyo",
+					"price": "0",
+                    "currency": "JPY",
+					"note": "A definir"
 				}
 			]
 		}
