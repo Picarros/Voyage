@@ -11,6 +11,15 @@
                     "date": "2025-08-04",
                     "steps": [
                         {
+							"type": "train",
+							"title": "RER B direction l'aéroport",
+                            "time": "05:30",
+                            "utc":"+2",
+                            "price":"13",
+                            "currency":"EUR",
+                            "address":"https://maps.app.goo.gl/d1eXnVjcr24q4d1MA"
+						},
+                        {
                             "type": "takeoff",
                             "title": "Décollage Paris Charles de Gaulle, Terminal 2E",
                             "time": "09:30",
@@ -50,7 +59,7 @@
 						},
                         {
 							"type": "bus",
-							"title": "Aller à Aomori",
+							"title": "Aéroport - Aomori",
 							"address": "https://maps.app.goo.gl/HSqKpdseqhy19L6Q9",
                             "price": "860",
                             "currency": "JPY",
@@ -80,7 +89,7 @@
 						},
                         {
 							"type": "train",
-							"title": "Aller à l'appartement",
+							"title": "Aomori - Tsutsui",
 							"address": "Tsutsui Station Aomori",
                             "price": "260",
                             "currency": "JPY",
@@ -190,18 +199,66 @@
 				{
 					"date": "2025-08-17",
 					"steps": [
+                        {
+							"type": "train",
+							"title": "Kyoto - Tsuruga",
+                            "price":"3420",
+                            "currency":"JPY",
+                            "address":"https://maps.app.goo.gl/UdxAXYpDbaEDSPW58"
+                        },
+                        {
+							"type": "tgv",
+							"title": "Tsuruga - Kanazawa",
+                            "price":"5480",
+                            "currency":"JPY",
+                            "address":"https://maps.app.goo.gl/7Vi9PvXrANYtY6548"
+                        },
 						{
 							"type": "",
 							"title": "Kanazawa"
+						},
+                        {
+							"type": "onsen",
+							"title": "Profiter du onsen de l'hôtel"
 						}
 					]
 				},
 				{
 					"date": "2025-08-18",
 					"steps": [
+                        {
+							"type": "tgv",
+							"title": "Kanazawa - Nagano",
+                            "price":"8590",
+                            "currency":"JPY",
+                            "address":"https://maps.app.goo.gl/AqMTKwUV5M5rdMeT9"
+                        },
+                        {
+							"type": "train",
+							"title": "Nagano - Yudanaka",
+                            "price":"1190",
+                            "currency":"JPY",
+                            "address":"https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
+                        },
+                        {
+							"type": "taxi",
+							"title": "Yudanaka - Shibu-Onsen",
+                            "address":"https://maps.app.goo.gl/pJ3MsthxbhkigpXD8",
+                            "note":"Prévenir le Ryokan de l'heure d'arrivée pour se faire récupérer par leur taxi"
+                        },
 						{
-							"type": "",
-							"title": "Shibu-onsen"
+							"type": "onsen",
+							"title": "Profiter des soto-yu",
+                            "note": "Il y a 9 soto-yu au total, et il est possible de collectionner les tampons pour les serviettes. <a href=\"https://whereandwander.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/05/Shibu-Onsen-Town-Map-001.jpg.webp\"  target=\"_blank\">Carte</a><br><a href=\"https://maps.app.goo.gl/kGH3QgRkeXGrzTXN9\"  target=\"_blank\">➀</a><a href=\"https://maps.app.goo.gl/8gC2dCGLWXhWzan37\"  target=\"_blank\">➁</a><a href=\"https://maps.app.goo.gl/7GABbLCssqZjjVbv9\"  target=\"_blank\">➂</a><a href=\"https://maps.app.goo.gl/NjK1WMPQUXY6xzFG7\"  target=\"_blank\">➃</a><a href=\"https://maps.app.goo.gl/7wconCSJdWW1hbf29\"  target=\"_blank\">➄</a><a href=\"https://maps.app.goo.gl/pvFbM9csAsTishfeA\"  target=\"_blank\">➅</a><a href=\"https://maps.app.goo.gl/S6CLE56FoR3W615T6\"  target=\"_blank\">➆</a><a href=\"https://maps.app.goo.gl/nWhfHp5Nk2kvkenF7\"  target=\"_blank\">➇</a><a href=\"https://maps.app.goo.gl/yoVj4Mf6Cv86LJP39\"  target=\"_blank\">➈</a>"  
+						},
+                        {
+							"type": "hike",
+							"title": "Randonnée pour aller voir les singes",
+                            "note": "Plus de chance en hiver qu'en été, mais la rando a l'air sympathique et facile<br><a href=\"https://www.komoot.fr/smarttour/34052801?ref=atd\"  target=\"_blank\">Komoot</a>"
+						},
+                        {
+							"type": "onsen",
+							"title": "Profiter des onsens du Ryokan"
 						}
 					]
 				},
@@ -209,17 +266,54 @@
 					"date": "2025-08-19",
 					"steps": [
 						{
-							"type": "",
-							"title": "Shibu-onsen"
+							"type": "onsen",
+							"title": "Profiter des soto-yu",
+                            "note": "Il y a 9 soto-yu au total, et il est possible de collectionner les tampons pour les serviettes. <a href=\"https://whereandwander.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/05/Shibu-Onsen-Town-Map-001.jpg.webp\"  target=\"_blank\">Carte</a><br><a href=\"https://maps.app.goo.gl/kGH3QgRkeXGrzTXN9\"  target=\"_blank\">➀</a><a href=\"https://maps.app.goo.gl/8gC2dCGLWXhWzan37\"  target=\"_blank\">➁</a><a href=\"https://maps.app.goo.gl/7GABbLCssqZjjVbv9\"  target=\"_blank\">➂</a><a href=\"https://maps.app.goo.gl/NjK1WMPQUXY6xzFG7\"  target=\"_blank\">➃</a><a href=\"https://maps.app.goo.gl/7wconCSJdWW1hbf29\"  target=\"_blank\">➄</a><a href=\"https://maps.app.goo.gl/pvFbM9csAsTishfeA\"  target=\"_blank\">➅</a><a href=\"https://maps.app.goo.gl/S6CLE56FoR3W615T6\"  target=\"_blank\">➆</a><a href=\"https://maps.app.goo.gl/nWhfHp5Nk2kvkenF7\"  target=\"_blank\">➇</a><a href=\"https://maps.app.goo.gl/yoVj4Mf6Cv86LJP39\"  target=\"_blank\">➈</a>"  
+                        },
+                        {
+							"type": "hike",
+							"title": "Randonnée pour aller voir les singes",
+                            "note": "Plus de chance en hiver qu'en été, mais la rando a l'air sympathique et facile<br><a href=\"https://www.komoot.fr/smarttour/34052801?ref=atd\"  target=\"_blank\">Komoot</a>"
+						},
+                        {
+							"type": "onsen",
+							"title": "Profiter des onsens du Ryokan",
+                            "danger": "Il y a des horaires pour les onsens publics pour ne pas mélanger les hommes et les femmes"
 						}
 					]
 				},
 				{
 					"date": "2025-08-20",
 					"steps": [
+                        {
+							"type": "bus",
+							"title": "Shibu-onsen - Yudanaka",
+                            "note" : "Navette toutes les 30 min pour la gare"
+						},
+                        {
+							"type": "train",
+							"title": "Yudanaka - Nagano",
+                            "price": "1190",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/pJ3MsthxbhkigpXD8"
+						},
+                        {
+							"type": "",
+							"title": "Visite rapide de la ville de Nagano et manger ?",
+                            "address": "https://maps.app.goo.gl/nppXYqeU5mvZ95mk6",
+                            "note": "Laisser les valises dans une consigne à bagages à la gare"
+						},
+                        {
+							"type": "tgv",
+							"title": "Nagano - Tokyo",
+                            "price": "7810",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
+						},
 						{
 							"type": "",
-							"title": "Tokyo"
+							"title": "Avant avant dernier jour à Tokyo (shopping ?)",
+                            "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
 						}
 					]
 				},
@@ -228,7 +322,8 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Tokyo"
+							"title": "Avant dernier jour à Tokyo (shopping ?)",
+                            "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
 						}
 					]
 				},
@@ -236,8 +331,18 @@
 					"date": "2025-08-22",
 					"steps": [
                         {
-							"type": "",
-							"title": "Tokyo"
+							"type": "shopping",
+							"title": "Dernier jour à Tokyo (shopping ?!)",
+                            "note": "Laisser les valises dans une consigne à bagages à la gare"
+						},
+                        {
+							"type": "train",
+							"title": "Tokyo - Aéroport",
+                            "time": "18:00",
+                            "utc":"+9",
+                            "price":"690",
+                            "currency":"JPY",
+                            "address":"https://maps.app.goo.gl/1ZS5QLKsjA7ptE3j6"
 						},
                         {
                             "type": "takeoff",
@@ -274,17 +379,17 @@
 					"address": "https://maps.app.goo.gl/PAFfQr9hNTgdT4hX8",
 					"price": "794.95",
 					"currency": "EUR",
-					"note": "Check-in en autonomie à partir de 15h. Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
+					"note": "Check-in en autonomie à partir de 15h.<br>Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
 				},
 				{
                     "type": "hotel",
-					"title": "Mori Hotel Akihabara",
+					"title": "Mori Hotel Akihabara 1",
 					"from": "2025-08-07",
 					"to": "2025-08-11",
 					"address": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
-					"price": "123000",
-                    "currency": "JPY",
-					"note": "Sanko Building"
+					"price": "756",
+                    "currency": "EUR",
+					"note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4619864205) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
 				},
 				{
                     "type": "hotel",
@@ -294,7 +399,7 @@
 					"address": "https://maps.app.goo.gl/5vrW4xtnjyAqqLaeA",
 					"price": "1869",
                     "currency": "EUR",
-					"note": "Gion complet"
+					"note": "Check-in à partir de 15h.<br>Gion complet"
 				},
 				{
                     "type": "hotel",
@@ -304,7 +409,7 @@
 					"address": "https://maps.app.goo.gl/U3gJEFCimwFuihrp9",
 					"price": "176",
                     "currency": "EUR",
-					"note": "Onsen à l'intérieur de l'hôtel"
+					"note": "Check-in à partir de 15h.<br>Onsen à l'intérieur de l'hôtel"
 				},
 				{
                     "type": "hotel",
@@ -314,7 +419,7 @@
 					"address": "https://maps.app.goo.gl/LTz2TUUBjiL84piB6",
 					"price": "153",
                     "currency": "EUR",
-					"note": "Disponible dès 13h, récupération depuis la gare !<br>Demander le petit-déjeuner à l'avance.",
+					"note": "Check-in à partir de 10h30.<br>Récupération depuis la gare !<br>Demander le petit-déjeuner à l'avance.",
                     "danger": "Demander si on peut laisser les valises de 10h à 15h le temps de changer de Ryokan"
 				},
 				{
@@ -325,17 +430,17 @@
 					"address": "https://maps.app.goo.gl/aWx6BqDooVCeS6vZA",
 					"price": "105500",
                     "currency": "JPY",
-					"note": "Disponible dès 15h.<br>Diner et petit-déjeuner inclut.<br> Contact : <a href=\"mailto:connie@elitetoursint.com\" target=\"_blank\">connie@elitetoursint.com</a>"
+					"note": "Check-in à partir de 15h.<br>Diner et petit-déjeuner inclut.<br> Contact : <a href=\"mailto:connie@elitetoursint.com\" target=\"_blank\">connie@elitetoursint.com</a>"
 				},
 				{
                     "type": "hotel",
-					"title": "Tokyo",
+					"title": "Mori Hotel Akihabara 2",
 					"from": "2025-08-20",
 					"to": "2025-08-22",
-					"address": "Tokyo",
-					"price": "0",
-                    "currency": "JPY",
-					"note": "A definir"
+					"address": "https://maps.app.goo.gl/wtBfqSfQTuhbAEi49",
+					"price": "523",
+                    "currency": "EUR",
+					"note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4616990782) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
 				}
 			]
 		}
