@@ -36,3 +36,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Other
+
+```PowerShell
+$env:Path = "C:\Users\yagros\AppData\Local\node-v22.14.0-win-x64;$env:PATH"
+```
