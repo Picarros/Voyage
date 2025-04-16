@@ -229,8 +229,54 @@
                             "address":"https://maps.app.goo.gl/7Vi9PvXrANYtY6548"
                         },
 						{
-							"type": "",
-							"description": "Kanazawa"
+							"type": "activity",
+							"description": "Nishi-Chayagai",
+                            "address": "https://maps.app.goo.gl/ByDxa8G8Rvr9nRbw7",
+                            "note": "Quartier Geisha"
+						},
+                        {
+							"type": "activity",
+							"description": "Nagamachi District",
+                            "address": "https://maps.app.goo.gl/GKMyuopW4SshZMk27",
+                            "note": "Quartier Geisha"
+						},
+                        {
+							"type": "shopping",
+							"description": "Omicho Market",
+                            "address": "https://maps.app.goo.gl/vrpSiwrh53DcWDi79",
+                            "note": "Marché couvert"
+						},
+                        {
+							"type": "castle",
+							"description": "Kanazawa Castle",
+                            "price": "310",
+                            "currency":"JPY",
+                            "address": "https://maps.app.goo.gl/kHTzqfTUwpLfnrV79",
+                            "note": "Le prix inclut les jardins"
+						},
+                        {
+							"type": "park",
+							"description": "Kenroku-en",
+                            "address": "https://maps.app.goo.gl/gcxLiwisaeUwHizF6",
+                            "note": "Jardins du château"
+						},
+                        {
+							"type": "activity",
+							"description": "Kazuemachi Chaya District",
+                            "address": "https://maps.app.goo.gl/6n7r6fZpaSFV2jt47",
+                            "note": "Quartier Geisha"
+						},
+                        {
+							"type": "activity",
+							"description": "Higashi Chaya District",
+                            "address": "https://maps.app.goo.gl/oBEKK2U1dyJWRtdF6",
+                            "note": "Quartier Geisha"
+						},
+                        {
+							"type": "hike",
+							"description": "Mont Utatsu",
+                            "address": "https://maps.app.goo.gl/CmnDtyYHYbz7UwRB7",
+                            "note": "Vue incroyable le soir apparemment"
 						},
                         {
 							"type": "onsen",
@@ -414,7 +460,7 @@
 					"address": "https://maps.app.goo.gl/7a621QZxByLKVudY7",
 					"price": "1767",
                     "currency": "EUR",
-					"note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?",
+					"note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?<br> Remplir ce qu'il faut <a href=\"https://guests-portal.web.app/login/223/\" target=\"_blank\">ici</a> au moins 3 jours avant",
                     "danger":"Le check-in s'effectue à côté de la gare, <a href=\"https://maps.app.goo.gl/Kz9Y3ssyi58NnZsy5\" target=\"_blank\">ici</a>"
 				},
 				{
