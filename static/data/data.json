@@ -147,7 +147,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto"
+							"title": "Kyoto Centre / Est"
 						}
 					]
 				},
@@ -156,7 +156,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto"
+							"title": "Osaka"
 						}
 					]
 				},
@@ -165,7 +165,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto"
+							"title": "Nara"
 						}
 					]
 				},
@@ -174,7 +174,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto"
+							"title": "Kyoto Est"
 						}
 					]
 				},
@@ -183,17 +183,32 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto"
+							"title": "Kyoto Nord"
 						}
 					]
 				},
 				{
 					"date": "2025-08-16",
 					"steps": [
-						{
+                        {
 							"type": "",
-							"title": "Kyoto"
-						}
+							"title": "Kyoto Ouest"
+						},
+						{
+							"type": "festival",
+							"title": "Arashiyama Toro Nagashi",
+                            "time": "19:00",
+                            "utc": "+9",
+                            "address": "https://maps.app.goo.gl/FAf1aiYTM9wsCovL7",
+                            "note": "Lanterne dans l'eau de la rivière jusqu'à 21h"
+						},
+                        {
+                            "type": "festival",
+                            "title": "Gozan Okuribi",
+                            "time": "20:00",
+                            "utc": "+9",
+                            "note": "Kanji en feu sur les montagnes pendant 30 minutes. Plan <a href=\"https://gozan-okuribi.com/2022/en/top.html\" target=\"_blank\">ici</a>"
+                        }
 					]
 				},
 				{
@@ -443,7 +458,14 @@
                     "currency": "EUR",
 					"note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4616990782) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
 				}
-			]
+			],
+            "events": [
+                {
+                    "description": "O-Bon",
+                    "from": "2025-08-13",
+                    "to": "2025-08-16"
+                }
+            ]
 		}
 	]
 }

@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
     import { base } from '$app/paths';
 	import Calendar from '$lib/components/Calendar.svelte';
+    import Events from '$lib/components/Events.svelte';
 	import Day from '$lib/components/Day.svelte';
 
 	let data;
@@ -24,6 +25,11 @@
 		let d = new Date(date);
 		return trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
 	}
+
+    function getEvents(date){
+        let d = new Date(date);
+        return trip?.events.filter((x) => new Date(x.from) <= d && d <= new Date(x.to));
+    }
 </script>
 
 <div class="container">
@@ -53,6 +59,7 @@
 								aria-controls="collapse{dayIndex}"
 							>
 								<Calendar date={day.date}/>
+                                <Events events={getEvents(day.date)} />
 							</button>
 						</h2>
 						<!-- Contenu -->
