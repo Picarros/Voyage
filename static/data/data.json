@@ -393,13 +393,14 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Takeya Gojo",
+					"title": "Resi Stay Palace Gate",
 					"from": "2025-08-11",
 					"to": "2025-08-17",
-					"address": "https://maps.app.goo.gl/5vrW4xtnjyAqqLaeA",
-					"price": "1869",
+					"address": "https://maps.app.goo.gl/7a621QZxByLKVudY7",
+					"price": "1767",
                     "currency": "EUR",
-					"note": "Check-in à partir de 15h.<br>Gion complet"
+					"note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?",
+                    "danger":"Le check-in s'effectue à côté de la gare, <a href=\"https://maps.app.goo.gl/Kz9Y3ssyi58NnZsy5\" target=\"_blank\">ici</a>"
 				},
 				{
                     "type": "hotel",
