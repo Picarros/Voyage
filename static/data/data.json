@@ -12,7 +12,7 @@
                     "steps": [
                         {
 							"type": "train",
-							"title": "RER B direction l'aéroport",
+							"description": "RER B direction l'aéroport",
                             "time": "05:30",
                             "utc":"+2",
                             "price":"13",
@@ -21,7 +21,7 @@
 						},
                         {
                             "type": "takeoff",
-                            "title": "Décollage Paris Charles de Gaulle, Terminal 2E",
+                            "description": "Décollage Paris Charles de Gaulle, Terminal 2E",
                             "time": "09:30",
                             "utc": "+2",
                             "note": "Prévoir de venir 3h à l'avance",
@@ -36,7 +36,7 @@
 					"steps": [
 						{
 							"type": "landing",
-							"title": "Atterrissage Tokyo Haneda, Terminal 3",
+							"description": "Atterrissage Tokyo Haneda, Terminal 3",
 							"time": "05:55",
                             "utc": "+9",
 							"address": "https://maps.app.goo.gl/aey55D7NDr9dvME6A",
@@ -44,7 +44,7 @@
 						},
                         {
 							"type": "takeoff",
-							"title": "Décollage Tokyo Haneda, Terminal 1",
+							"description": "Décollage Tokyo Haneda, Terminal 1",
 							"time": "10:05",
                             "utc": "+9",
 							"address": "https://maps.app.goo.gl/fjnVh31ooG1f3zpCA",
@@ -52,14 +52,14 @@
 						},
                         {
 							"type": "landing",
-							"title": "Atterrissage Aomori",
+							"description": "Atterrissage Aomori",
 							"time": "11:20",
                             "utc": "+9",
 							"address": "Aomori Airport"
 						},
                         {
 							"type": "bus",
-							"title": "Aéroport - Aomori",
+							"description": "Aéroport - Aomori",
 							"address": "https://maps.app.goo.gl/HSqKpdseqhy19L6Q9",
                             "price": "860",
                             "currency": "JPY",
@@ -67,7 +67,7 @@
 						},
                         {
 							"type": "museum",
-							"title": "Musée des Nebuta",
+							"description": "Musée des Nebuta",
 							"address": "Maison Nebuta Warasse",
                             "price": "620",
                             "currency": "JPY",
@@ -75,12 +75,12 @@
 						},
                         {
 							"type": "museum",
-							"title": "Voir stockage chars",
+							"description": "Voir stockage chars",
 							"address": "Nebuta Hut Rasse Land"
 						},
                         {
 							"type": "festival",
-							"title": "Nebuta Matsuri Festival",
+							"description": "Nebuta Matsuri Festival",
                             "time": "19:00",
                             "utc": "+9",
 							"address": "https://maps.app.goo.gl/ngNbxguUv2iZQSB38",
@@ -89,7 +89,7 @@
 						},
                         {
 							"type": "train",
-							"title": "Aomori - Tsutsui",
+							"description": "Aomori - Tsutsui",
 							"address": "Tsutsui Station Aomori",
                             "price": "260",
                             "currency": "JPY",
@@ -102,7 +102,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Hirosaki"
+							"description": "Hirosaki"
                         }
 					]
 				},
@@ -111,7 +111,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Tokyo"
+							"description": "Tokyo"
 						}
 					]
 				},
@@ -120,7 +120,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Nikko"
+							"description": "Nikko"
 						}
 					]
 				},
@@ -129,7 +129,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Tokyo"
+							"description": "Tokyo"
 						}
 					]
 				},
@@ -138,7 +138,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Tokyo"
+							"description": "Tokyo"
 						}
 					]
 				},
@@ -147,7 +147,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto Centre / Est"
+							"description": "Kyoto Centre / Est"
 						}
 					]
 				},
@@ -156,7 +156,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Osaka"
+							"description": "Osaka"
 						}
 					]
 				},
@@ -165,7 +165,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Nara"
+							"description": "Nara"
 						}
 					]
 				},
@@ -174,7 +174,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto Est"
+							"description": "Kyoto Est"
 						}
 					]
 				},
@@ -183,7 +183,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Kyoto Nord"
+							"description": "Kyoto Nord"
 						}
 					]
 				},
@@ -192,11 +192,11 @@
 					"steps": [
                         {
 							"type": "",
-							"title": "Kyoto Ouest"
+							"description": "Kyoto Ouest"
 						},
 						{
 							"type": "festival",
-							"title": "Arashiyama Toro Nagashi",
+							"description": "Arashiyama Toro Nagashi",
                             "time": "19:00",
                             "utc": "+9",
                             "address": "https://maps.app.goo.gl/FAf1aiYTM9wsCovL7",
@@ -204,7 +204,7 @@
 						},
                         {
                             "type": "festival",
-                            "title": "Gozan Okuribi",
+                            "description": "Gozan Okuribi",
                             "time": "20:00",
                             "utc": "+9",
                             "note": "Kanji en feu sur les montagnes pendant 30 minutes. Plan <a href=\"https://gozan-okuribi.com/2022/en/top.html\" target=\"_blank\">ici</a>"
@@ -216,25 +216,25 @@
 					"steps": [
                         {
 							"type": "train",
-							"title": "Kyoto - Tsuruga",
+							"description": "Kyoto - Tsuruga",
                             "price":"3420",
                             "currency":"JPY",
                             "address":"https://maps.app.goo.gl/UdxAXYpDbaEDSPW58"
                         },
                         {
 							"type": "tgv",
-							"title": "Tsuruga - Kanazawa",
+							"description": "Tsuruga - Kanazawa",
                             "price":"5480",
                             "currency":"JPY",
                             "address":"https://maps.app.goo.gl/7Vi9PvXrANYtY6548"
                         },
 						{
 							"type": "",
-							"title": "Kanazawa"
+							"description": "Kanazawa"
 						},
                         {
 							"type": "onsen",
-							"title": "Profiter du onsen de l'hôtel"
+							"description": "Profiter du onsen de l'hôtel"
 						}
 					]
 				},
@@ -243,37 +243,37 @@
 					"steps": [
                         {
 							"type": "tgv",
-							"title": "Kanazawa - Nagano",
+							"description": "Kanazawa - Nagano",
                             "price":"8590",
                             "currency":"JPY",
                             "address":"https://maps.app.goo.gl/AqMTKwUV5M5rdMeT9"
                         },
                         {
 							"type": "train",
-							"title": "Nagano - Yudanaka",
+							"description": "Nagano - Yudanaka",
                             "price":"1190",
                             "currency":"JPY",
                             "address":"https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
                         },
                         {
 							"type": "taxi",
-							"title": "Yudanaka - Shibu-Onsen",
+							"description": "Yudanaka - Shibu-Onsen",
                             "address":"https://maps.app.goo.gl/pJ3MsthxbhkigpXD8",
                             "note":"Prévenir le Ryokan de l'heure d'arrivée pour se faire récupérer par leur taxi"
                         },
 						{
 							"type": "onsen",
-							"title": "Profiter des soto-yu",
+							"description": "Profiter des soto-yu",
                             "note": "Il y a 9 soto-yu au total, et il est possible de collectionner les tampons pour les serviettes. <a href=\"https://whereandwander.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/05/Shibu-Onsen-Town-Map-001.jpg.webp\"  target=\"_blank\">Carte</a><br><a href=\"https://maps.app.goo.gl/kGH3QgRkeXGrzTXN9\"  target=\"_blank\">➀</a><a href=\"https://maps.app.goo.gl/8gC2dCGLWXhWzan37\"  target=\"_blank\">➁</a><a href=\"https://maps.app.goo.gl/7GABbLCssqZjjVbv9\"  target=\"_blank\">➂</a><a href=\"https://maps.app.goo.gl/NjK1WMPQUXY6xzFG7\"  target=\"_blank\">➃</a><a href=\"https://maps.app.goo.gl/7wconCSJdWW1hbf29\"  target=\"_blank\">➄</a><a href=\"https://maps.app.goo.gl/pvFbM9csAsTishfeA\"  target=\"_blank\">➅</a><a href=\"https://maps.app.goo.gl/S6CLE56FoR3W615T6\"  target=\"_blank\">➆</a><a href=\"https://maps.app.goo.gl/nWhfHp5Nk2kvkenF7\"  target=\"_blank\">➇</a><a href=\"https://maps.app.goo.gl/yoVj4Mf6Cv86LJP39\"  target=\"_blank\">➈</a>"  
 						},
                         {
 							"type": "hike",
-							"title": "Randonnée pour aller voir les singes",
+							"description": "Randonnée pour aller voir les singes",
                             "note": "Plus de chance en hiver qu'en été, mais la rando a l'air sympathique et facile<br><a href=\"https://www.komoot.fr/smarttour/34052801?ref=atd\"  target=\"_blank\">Komoot</a>"
 						},
                         {
 							"type": "onsen",
-							"title": "Profiter des onsens du Ryokan"
+							"description": "Profiter des onsens du Ryokan"
 						}
 					]
 				},
@@ -282,17 +282,17 @@
 					"steps": [
 						{
 							"type": "onsen",
-							"title": "Profiter des soto-yu",
+							"description": "Profiter des soto-yu",
                             "note": "Il y a 9 soto-yu au total, et il est possible de collectionner les tampons pour les serviettes. <a href=\"https://whereandwander.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/05/Shibu-Onsen-Town-Map-001.jpg.webp\"  target=\"_blank\">Carte</a><br><a href=\"https://maps.app.goo.gl/kGH3QgRkeXGrzTXN9\"  target=\"_blank\">➀</a><a href=\"https://maps.app.goo.gl/8gC2dCGLWXhWzan37\"  target=\"_blank\">➁</a><a href=\"https://maps.app.goo.gl/7GABbLCssqZjjVbv9\"  target=\"_blank\">➂</a><a href=\"https://maps.app.goo.gl/NjK1WMPQUXY6xzFG7\"  target=\"_blank\">➃</a><a href=\"https://maps.app.goo.gl/7wconCSJdWW1hbf29\"  target=\"_blank\">➄</a><a href=\"https://maps.app.goo.gl/pvFbM9csAsTishfeA\"  target=\"_blank\">➅</a><a href=\"https://maps.app.goo.gl/S6CLE56FoR3W615T6\"  target=\"_blank\">➆</a><a href=\"https://maps.app.goo.gl/nWhfHp5Nk2kvkenF7\"  target=\"_blank\">➇</a><a href=\"https://maps.app.goo.gl/yoVj4Mf6Cv86LJP39\"  target=\"_blank\">➈</a>"  
                         },
                         {
 							"type": "hike",
-							"title": "Randonnée pour aller voir les singes",
+							"description": "Randonnée pour aller voir les singes",
                             "note": "Plus de chance en hiver qu'en été, mais la rando a l'air sympathique et facile<br><a href=\"https://www.komoot.fr/smarttour/34052801?ref=atd\"  target=\"_blank\">Komoot</a>"
 						},
                         {
 							"type": "onsen",
-							"title": "Profiter des onsens du Ryokan",
+							"description": "Profiter des onsens du Ryokan",
                             "danger": "Il y a des horaires pour les onsens publics pour ne pas mélanger les hommes et les femmes"
 						}
 					]
@@ -302,32 +302,32 @@
 					"steps": [
                         {
 							"type": "bus",
-							"title": "Shibu-onsen - Yudanaka",
+							"description": "Shibu-onsen - Yudanaka",
                             "note" : "Navette toutes les 30 min pour la gare"
 						},
                         {
 							"type": "train",
-							"title": "Yudanaka - Nagano",
+							"description": "Yudanaka - Nagano",
                             "price": "1190",
                             "currency": "JPY",
                             "address": "https://maps.app.goo.gl/pJ3MsthxbhkigpXD8"
 						},
                         {
 							"type": "",
-							"title": "Visite rapide de la ville de Nagano et manger ?",
+							"description": "Visite rapide de la ville de Nagano et manger ?",
                             "address": "https://maps.app.goo.gl/nppXYqeU5mvZ95mk6",
                             "note": "Laisser les valises dans une consigne à bagages à la gare"
 						},
                         {
 							"type": "tgv",
-							"title": "Nagano - Tokyo",
+							"description": "Nagano - Tokyo",
                             "price": "7810",
                             "currency": "JPY",
                             "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
 						},
 						{
 							"type": "",
-							"title": "Avant avant dernier jour à Tokyo (shopping ?)",
+							"description": "Avant avant dernier jour à Tokyo (shopping ?)",
                             "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
 						}
 					]
@@ -337,7 +337,7 @@
 					"steps": [
 						{
 							"type": "",
-							"title": "Avant dernier jour à Tokyo (shopping ?)",
+							"description": "Avant dernier jour à Tokyo (shopping ?)",
                             "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
 						}
 					]
@@ -347,12 +347,12 @@
 					"steps": [
                         {
 							"type": "shopping",
-							"title": "Dernier jour à Tokyo (shopping ?!)",
+							"description": "Dernier jour à Tokyo (shopping ?!)",
                             "note": "Laisser les valises dans une consigne à bagages à la gare"
 						},
                         {
 							"type": "train",
-							"title": "Tokyo - Aéroport",
+							"description": "Tokyo - Aéroport",
                             "time": "18:00",
                             "utc":"+9",
                             "price":"690",
@@ -361,7 +361,7 @@
 						},
                         {
                             "type": "takeoff",
-                            "title": "Décollage Tokyo Haneda, Terminal 3",
+                            "description": "Décollage Tokyo Haneda, Terminal 3",
                             "time": "22:05",
                             "utc": "+9",
                             "note": "Prévoir de venir 3h à l'avance",
@@ -376,7 +376,7 @@
 					"steps": [
                         {
                             "type": "landing",
-                            "title": "Atterrissage Paris Charles de Gaulle, Terminal 2E",
+                            "description": "Atterrissage Paris Charles de Gaulle, Terminal 2E",
                             "time": "06:00",
                             "utc": "+2",
                             "currency": "EUR",
@@ -388,7 +388,7 @@
 			"accommodations": [
 				{
                     "type": "hotel",
-					"title": "Aomori Horizon",
+					"description": "Aomori Horizon",
 					"from": "2025-08-05",
 					"to": "2025-08-07",
 					"address": "https://maps.app.goo.gl/PAFfQr9hNTgdT4hX8",
@@ -398,7 +398,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Mori Hotel Akihabara 1",
+					"description": "Mori Hotel Akihabara 1",
 					"from": "2025-08-07",
 					"to": "2025-08-11",
 					"address": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
@@ -408,7 +408,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Resi Stay Palace Gate",
+					"description": "Resi Stay Palace Gate",
 					"from": "2025-08-11",
 					"to": "2025-08-17",
 					"address": "https://maps.app.goo.gl/7a621QZxByLKVudY7",
@@ -419,7 +419,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "The Square Hotel Kanazawa",
+					"description": "The Square Hotel Kanazawa",
 					"from": "2025-08-17",
 					"to": "2025-08-18",
 					"address": "https://maps.app.goo.gl/U3gJEFCimwFuihrp9",
@@ -429,7 +429,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Daymaruya Ryokan",
+					"description": "Daymaruya Ryokan",
 					"from": "2025-08-18",
 					"to": "2025-08-19",
 					"address": "https://maps.app.goo.gl/LTz2TUUBjiL84piB6",
@@ -440,7 +440,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Kanaguya",
+					"description": "Kanaguya",
 					"from": "2025-08-19",
 					"to": "2025-08-20",
 					"address": "https://maps.app.goo.gl/aWx6BqDooVCeS6vZA",
@@ -450,7 +450,7 @@
 				},
 				{
                     "type": "hotel",
-					"title": "Mori Hotel Akihabara 2",
+					"description": "Mori Hotel Akihabara 2",
 					"from": "2025-08-20",
 					"to": "2025-08-22",
 					"address": "https://maps.app.goo.gl/wtBfqSfQTuhbAEi49",

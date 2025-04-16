@@ -21,7 +21,7 @@
     <div class="col-10 p-0 px-2">
         <p class="m-0">
             <span class="fw-bold">
-                {step.title}
+                {step.description}
             </span>
             <span>
                 <Price price={step.price} currency={step.currency} {countryCurrency} />
