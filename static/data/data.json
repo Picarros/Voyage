@@ -372,8 +372,21 @@
                     "date": "2025-08-11",
                     "steps": [
                         {
+                            "type": "tgv",
+                            "description": "Tokyo - Kyoto",
+                            "duration": "2h20",
+                            "price": "13320",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/NKgX1bots5ej8jfo8"
+                        },
+                        {
                             "type": "",
-                            "description": "Kyoto Centre / Est"
+                            "description": "Check-in, même si ce n'est pas encore le moment ?!",
+                            "address": "https://maps.app.goo.gl/gaqnoYvFqQAgfCAHA"
+                        },
+                        {
+                            "type": "",
+                            "description": "Kyoto Centre ?"
                         }
                     ]
                 },
@@ -382,7 +395,7 @@
                     "steps": [
                         {
                             "type": "",
-                            "description": "Osaka"
+                            "description": "Kyoto Est"
                         }
                     ]
                 },
@@ -391,7 +404,7 @@
                     "steps": [
                         {
                             "type": "",
-                            "description": "Nara"
+                            "description": "Osaka"
                         }
                     ]
                 },
@@ -400,7 +413,69 @@
                     "steps": [
                         {
                             "type": "",
-                            "description": "Kyoto Est"
+                            "description": "Nara"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Marutamachi  - Takeda",
+                            "duration": "15min",
+                            "price": "260",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/hGzQodqMmcY5tRMbA",
+                            "note": "Des fois il y a des directs"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Takeda - Kintetsu-Nara",
+                            "duration": "40min",
+                            "price": "760",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/7Vbgqujtn94tDpSA6",
+                            "danger": "Il y a deux gares à Nara !"
+                        },
+                        {
+                            "type": "garden",
+                            "description": "Jardin Isuien",
+                            "address": "https://maps.app.goo.gl/NLs5du8zAtnNTEQR9"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Tōdai-ji",
+                            "address": "https://maps.app.goo.gl/PnTE92kXEkgi3hqm7"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Nigatsu-dō",
+                            "address": "https://maps.app.goo.gl/buPxwN7cCdzwEEsZ6"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kasuga-taisha",
+                            "address": "https://maps.app.goo.gl/EaeRxRgvk83omzJZ9"
+                        },
+                        {
+                            "type": "shopping",
+                            "description" : "Nakatanidou",
+                            "address": "https://maps.app.goo.gl/ikJLr2ykZCGPVQAw8",
+                            "note": "Boutique de confiseries"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Kintetsu-Nara - Takeda",
+                            "duration": "40min",
+                            "price": "760",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/b8e3Wv3fvuZXQZny5",
+                            "note": "Des fois il y a des directs",
+                            "danger": "Il y a deux gares à Nara !"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Takeda - Marutamachi",
+                            "duration": "15min",
+                            "price": "260",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/7Vbgqujtn94tDpSA6"
                         }
                     ]
                 },
@@ -409,7 +484,7 @@
                     "steps": [
                         {
                             "type": "",
-                            "description": "Kyoto Nord"
+                            "description": "Kyoto Ouest"
                         }
                     ]
                 },
@@ -418,7 +493,64 @@
                     "steps": [
                         {
                             "type": "",
-                            "description": "Kyoto Ouest"
+                            "description": "Kyoto Sud / Nord"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Fushimi Inari-taisha",
+                            "address": "https://maps.app.goo.gl/UUpZv4qwHBhqph5v9",
+                            "duration": "45min",
+                            "note": "Il faut y aller tôt, sinon on risque d'avoir trop de monde.<br> Monter jusqu'à \"Yotsutsuji intersection\", plus loin ça ne sert pas vraiment, sauf peut-être un peu pour les photos"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Inari - Demachiyanagi",
+                            "duration": "25min",
+                            "price": "280",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/TpDsJdQXM8TGYmDZ6"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Demachiyanagi - Kurama",
+                            "duration": "30min",
+                            "price": "470",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/ez6anRfFB1EMDp4t5"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kurama-dera",
+                            "address": "https://maps.app.goo.gl/swAGRhmjVevkmdr57",
+                            "note": "Possibilité de monter en funiculaire"
+                        },
+                        {
+                            "type": "garden",
+                            "description": "Jardin botanique",
+                            "address": "https://maps.app.goo.gl/dtuvodh6Y1NR8JGs5"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kifune-jinja",
+                            "address": "https://maps.app.goo.gl/oPAZgb4ty82dDCgB9"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Umenomiya Shrine",
+                            "address": "https://maps.app.goo.gl/wWQWD6DxtdjSq3Ja6",
+                            "note": "Bonne et mauvaise fortune à mettre dans l'eau"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Kibuneguchi - Demachiyanagi",
+                            "duration": "30min",
+                            "price": "470",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/HEcqNt2srwdx4rJG9"
+                        },
+                        {
+                            "type": "rest",
+                            "description": "Détente à l'appartement ?!"
                         },
                         {
                             "type": "festival",
