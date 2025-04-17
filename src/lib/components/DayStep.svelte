@@ -13,7 +13,7 @@
 
 <div class="row align-self-center flex-nowrap">
     <div class="col-1 p-0" style="min-width: 30px;">
-        <Time time={step.time} utc={step.utc} />
+        <Time time={step.time} utc={step.utc} duration={step.duration} />
     </div>
     <div class="col-1 p-0" style="min-width: 30px;">
         <Bullet top={top} bottom={bottom} icon={step.type} />
