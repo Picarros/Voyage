@@ -12,7 +12,7 @@
 </script>
 
 <div class="row align-self-center flex-nowrap">
-    <div class="col-1 p-0" style="min-width: 30px;">
+    <div class="col-1 p-0" style="min-width: 45px;">
         <Time time={step.time} utc={step.utc} duration={step.duration} />
     </div>
     <div class="col-1 p-0" style="min-width: 30px;">
