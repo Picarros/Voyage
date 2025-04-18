@@ -405,6 +405,76 @@
                         {
                             "type": "",
                             "description": "Osaka"
+                        },
+                        {
+                            "type": "commute",
+                            "description": "Kyoto - Katsuō-ji"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Katsuō-ji",
+                            "address": "https://maps.app.goo.gl/aJbg1YMjQBbYGpjN7",
+                            "note": "Carte avec 6 tampons à faire"
+                        },
+                        {
+                            "type": "hike",
+                            "address": "Descente du temple avec cascades",
+                            "duration": "2h",
+                            "note": "Randonnée facile, <a href=\"https://www.komoot.com/fr-fr/smarttour/34007205?ref=wdd\" target=;\"_blank\" >Komoot</a>"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Minoh-kayano - Hommachi",
+                            "price": "530",
+                            "currency": "JPY",
+                            "duration": "30min",
+                            "address": "https://maps.app.goo.gl/yqMkZgX74gkFjrk18"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Hommachi - Tanimachi 4-chome",
+                            "price": "190",
+                            "currency": "JPY",
+                            "duration": "5min",
+                            "address": "https://maps.app.goo.gl/fFP7DBHqwgHVR1yaA"
+                        },
+                        {
+                            "type": "castle",
+                            "description":"Château d'Osaka",
+                            "price": "600",
+                            "currency": "JPY"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Morinomiya  - Hommachi",
+                            "price": "190",
+                            "currency": "JPY",
+                            "duration": "5min",
+                            "address": "https://maps.app.goo.gl/kAkfhpLHhaCBSvsC8"
+                        },
+                        {
+                            "type": "train",
+                            "description": "Hommachi - Namba",
+                            "price": "190",
+                            "currency": "JPY",
+                            "duration": "5min",
+                            "address": "https://maps.app.goo.gl/ULp7TtGmMbbY9XqTA"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Dotonbori",
+                            "address": "https://maps.app.goo.gl/KSwKxDVt9z3CE9XH6",
+                            "note":"Quartier qui bouge"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Namba",
+                            "address": "https://maps.app.goo.gl/ZZzWA5frx7DnNwSX9",
+                            "note": "Quartier de la nuit"
+                        },
+                        {
+                            "type": "commute",
+                            "description": "Osaka - Kyoto"
                         }
                     ]
                 },
@@ -455,7 +525,7 @@
                         },
                         {
                             "type": "shopping",
-                            "description" : "Nakatanidou",
+                            "description": "Nakatanidou",
                             "address": "https://maps.app.goo.gl/ikJLr2ykZCGPVQAw8",
                             "note": "Boutique de confiseries"
                         },
