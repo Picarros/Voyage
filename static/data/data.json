@@ -5,10 +5,10 @@
             "name": "Japon 2025",
             "currency": "JPY",
             "utc": "+9",
-            "startDate": "2025-08-05",
             "days": [
                 {
                     "date": "2025-08-04",
+                    "description": "Paris : Départ",
                     "steps": [
                         {
                             "type": "train",
@@ -35,6 +35,7 @@
                 },
                 {
                     "date": "2025-08-05",
+                    "description": "Aomori (青森市) : Nebuta Festival",
                     "steps": [
                         {
                             "type": "landing",
@@ -104,6 +105,7 @@
                 },
                 {
                     "date": "2025-08-06",
+                    "description": "Hirosaki (弘前市) : Neputa Festival",
                     "steps": [
                         {
                             "type": "train",
@@ -179,6 +181,7 @@
                 },
                 {
                     "date": "2025-08-07",
+                    "description": "Tokyo (東京) : Akihabara",
                     "steps": [
                         {
                             "type": "train",
@@ -212,11 +215,8 @@
                 },
                 {
                     "date": "2025-08-08",
+                    "description": "Tokyo (東京) : Asakusa - Ueno",
                     "steps": [
-                        {
-                            "type": "",
-                            "description": "Tokyo - Asakusa"
-                        },
                         {
                             "type": "temple",
                             "description": "Sanctuaire Asakusa",
@@ -232,10 +232,6 @@
                             "type": "activity",
                             "description": "Asakusa Underground Street",
                             "address": "https://maps.app.goo.gl/5VST1H29fFMeP2nR9"
-                        },
-                        {
-                            "type": "",
-                            "description": "Tokyo - Ueno"
                         },
                         {
                             "type": "museum",
@@ -259,6 +255,7 @@
                 },
                 {
                     "date": "2025-08-09",
+                    "description": "Nikko (日光)",
                     "steps": [
                         {
                             "type": "",
@@ -317,21 +314,13 @@
                 },
                 {
                     "date": "2025-08-10",
+                    "description": "Tokyo (東京) : Tsukiji - Shinjuku - Shibuya",
                     "steps": [
-                        {
-                            "type": "",
-                            "description": "Tokyo - Tsukiji"
-                        },
                         {
                             "type": "activity",
                             "description": "Marché au détail de Tsukiji",
                             "address": "https://maps.app.goo.gl/RUhy13gbQ579mWqk6",
                             "note": "Venir tôt ?"
-                        },
-                        {
-                            "type": "",
-                            "description": "Tokyo - Shinjuku",
-                            "address": "https://maps.app.goo.gl/RUhy13gbQ579mWqk6"
                         },
                         {
                             "type": "temple",
@@ -350,12 +339,6 @@
                             "address": "https://maps.app.goo.gl/65f5cr8iCzc1njF66"
                         },
                         {
-                            "type": "",
-                            "description": "Tokyo - Shibuya",
-                            "address": "https://maps.app.goo.gl/RUhy13gbQ579mWqk6",
-                            "note": "Sympathique le soir"
-                        },
-                        {
                             "type": "shopping",
                             "description": "Shibuya Parco",
                             "address": "https://maps.app.goo.gl/ac9XjuykuRNRNPEh6",
@@ -370,6 +353,7 @@
                 },
                 {
                     "date": "2025-08-11",
+                    "description": "Kyoto (京都市) : Centre",
                     "steps": [
                         {
                             "type": "tgv",
@@ -392,6 +376,7 @@
                 },
                 {
                     "date": "2025-08-12",
+                    "description": "Kyoto (京都市) : Est",
                     "steps": [
                         {
                             "type": "",
@@ -401,6 +386,7 @@
                 },
                 {
                     "date": "2025-08-13",
+                    "description": "Osaka (大阪市)",
                     "steps": [
                         {
                             "type": "",
@@ -408,7 +394,13 @@
                         },
                         {
                             "type": "commute",
-                            "description": "Kyoto - Katsuō-ji"
+                            "description": "Kyoto - Katsuō-ji",
+                            "time": "07:45",
+                            "utc": "+9",
+                            "duration": "1h45",
+                            "price": "2030",
+                            "currency": "JPY",
+                            "note": "Si on part au bon moment, on peut ne pas avoir trop de temps de transport et des bons prix"
                         },
                         {
                             "type": "temple",
@@ -440,9 +432,10 @@
                         },
                         {
                             "type": "castle",
-                            "description":"Château d'Osaka",
+                            "description": "Château d'Osaka",
                             "price": "600",
-                            "currency": "JPY"
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/ehh16QLbq9qGZyxaA"
                         },
                         {
                             "type": "train",
@@ -464,7 +457,7 @@
                             "type": "activity",
                             "description": "Dotonbori",
                             "address": "https://maps.app.goo.gl/KSwKxDVt9z3CE9XH6",
-                            "note":"Quartier qui bouge"
+                            "note": "Quartier qui bouge"
                         },
                         {
                             "type": "activity",
@@ -474,12 +467,16 @@
                         },
                         {
                             "type": "commute",
-                            "description": "Osaka - Kyoto"
+                            "description": "Osaka - Kyoto",
+                            "price": "870",
+                            "currency": "JPY",
+                            "duration": "1h"
                         }
                     ]
                 },
                 {
                     "date": "2025-08-14",
+                    "description": "Nara (奈良市)",
                     "steps": [
                         {
                             "type": "",
@@ -551,6 +548,7 @@
                 },
                 {
                     "date": "2025-08-15",
+                    "description": "Kyoto (京都市) : Ouest",
                     "steps": [
                         {
                             "type": "",
@@ -560,11 +558,8 @@
                 },
                 {
                     "date": "2025-08-16",
+                    "description": "Kyoto (京都市) : Sud - Nord - O-Bon",
                     "steps": [
-                        {
-                            "type": "",
-                            "description": "Kyoto Sud / Nord"
-                        },
                         {
                             "type": "temple",
                             "description": "Fushimi Inari-taisha",
@@ -643,6 +638,7 @@
                 },
                 {
                     "date": "2025-08-17",
+                    "description": "Kanazawa (金沢市)",
                     "steps": [
                         {
                             "type": "train",
@@ -719,6 +715,7 @@
                 },
                 {
                     "date": "2025-08-18",
+                    "description": "Shibu-onsen (渋温泉) : J1",
                     "steps": [
                         {
                             "type": "tgv",
@@ -761,6 +758,7 @@
                 },
                 {
                     "date": "2025-08-19",
+                    "description": "Shibu-onsen (渋温泉) : J2",
                     "steps": [
                         {
                             "type": "onsen",
@@ -782,6 +780,7 @@
                 },
                 {
                     "date": "2025-08-20",
+                    "description": "Tokyo (東京) : A définir",
                     "steps": [
                         {
                             "type": "bus",
@@ -819,6 +818,7 @@
                 },
                 {
                     "date": "2025-08-21",
+                    "description": "Tokyo (東京) : A définir",
                     "steps": [
                         {
                             "type": "",
@@ -829,6 +829,7 @@
                 },
                 {
                     "date": "2025-08-22",
+                    "description": "Tokyo (東京) : Départ",
                     "steps": [
                         {
                             "type": "shopping",
@@ -860,6 +861,7 @@
                 },
                 {
                     "date": "2025-08-23",
+                    "description": "Paris : Arrivée",
                     "steps": [
                         {
                             "type": "landing",

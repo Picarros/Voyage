@@ -1,8 +1,8 @@
 <script>
-	import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
     import { base } from '$app/paths';
-	import Calendar from '$lib/components/Calendar.svelte';
-    import Events from '$lib/components/Events.svelte';
+    import { setContext } from 'svelte';
+	import DayHeader from '$lib/components/DayHeader.svelte';
 	import Day from '$lib/components/Day.svelte';
 
 	let data;
@@ -10,26 +10,22 @@
 	let trip = null;
 
 	onMount(async () => {
-		const response = await fetch(`${base}/data/data.json`);
+        const response = await fetch(`${base}/data/data.json`);
 		if (response.ok) {
-			data = await response.json();
+            data = await response.json();
 			tripId = data.trips[0].id;
 		} else {
-			console.error('Failed to fetch data:', response.status);
+            console.error('Failed to fetch data:', response.status);
 		}
 	});
-
+    
 	$: trip = data?.trips.find((v) => v.id === tripId);
+    setContext('trip', trip)
 
 	function getAccommodation(date){
 		let d = new Date(date);
 		return trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
 	}
-
-    function getEvents(date){
-        let d = new Date(date);
-        return trip?.events.filter((x) => new Date(x.from) <= d && d <= new Date(x.to));
-    }
 </script>
 
 <div class="container">
@@ -57,9 +53,8 @@
 								data-bs-target="#collapse{dayIndex}"
 								aria-expanded="true"
 								aria-controls="collapse{dayIndex}"
-							>
-								<Calendar date={day.date}/>
-                                <Events events={getEvents(day.date)} />
+							>                  
+                                <DayHeader day={day} />				
 							</button>
 						</h2>
 						<!-- Contenu -->
@@ -70,7 +65,7 @@
 							data-bs-parent="#accordion{dayIndex}"
 						>
 							<div class="accordion-body p-0">
-								<Day steps={day.steps} accommodation={getAccommodation(day.date)} countryCurrency={trip.currency} />
+								<Day day={day} steps={day.steps} accommodation={getAccommodation(day.date)} countryCurrency={trip.currency} />
 							</div>
 						</div>
 					</div>
