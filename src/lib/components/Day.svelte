@@ -1,9 +1,8 @@
 <script>
-    import { getContext } from 'svelte';
-	import DayStep from './DayStep.svelte';
+	import DayStep from '$lib/components/DayStep.svelte';
 
 	export let day;
-	const trip = getContext('trip');
+	export let trip;
 
 	function getAccommodation(date) {
 		let d = new Date(date);

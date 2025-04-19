@@ -1,10 +1,9 @@
 <script>
-	import { getContext } from 'svelte';
 	import Calendar from '$lib/components/Calendar.svelte';
 	import Events from '$lib/components/Events.svelte';
 
 	export let day;
-	const trip = getContext('trip');
+	export let trip;
 
 	function getEvents(date) {
 		let d = new Date(date);

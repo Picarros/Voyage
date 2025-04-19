@@ -20,12 +20,6 @@
 	});
     
 	$: trip = data?.trips.find((v) => v.id === tripId);
-    setContext('trip', trip)
-
-	function getAccommodation(date){
-		let d = new Date(date);
-		return trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
-	}
 </script>
 
 <div class="container">
@@ -54,7 +48,7 @@
 								aria-expanded="true"
 								aria-controls="collapse{dayIndex}"
 							>                  
-                                <DayHeader day={day} />				
+                                <DayHeader day={day} trip={trip} />				
 							</button>
 						</h2>
 						<!-- Contenu -->
@@ -65,7 +59,7 @@
 							data-bs-parent="#accordion{dayIndex}"
 						>
 							<div class="accordion-body p-0">
-								<Day day={day} steps={day.steps} accommodation={getAccommodation(day.date)} countryCurrency={trip.currency} />
+								<Day day={day} trip={trip} />
 							</div>
 						</div>
 					</div>
