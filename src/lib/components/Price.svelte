@@ -1,9 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
+    import { trip } from '$lib/components/store.js';
 
 	export let price;
 	export let currency; // Devise d'entrée (ex: 'USD')
-	export let countryCurrency; // Devise cible (ex: 'EUR')
+	export let countryCurrency = $trip?.currency; // Devise cible (ex: 'EUR')
 
 	let rates = {};
 	let priceEUR = '';

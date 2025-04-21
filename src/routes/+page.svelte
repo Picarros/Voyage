@@ -1,25 +1,27 @@
 <script>
-    import { onMount } from 'svelte';
-    import { base } from '$app/paths';
-    import { setContext } from 'svelte';
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import { setContext } from 'svelte';
+	import { trip } from '$lib/components/store.js';
 	import DayHeader from '$lib/components/DayHeader.svelte';
 	import Day from '$lib/components/Day.svelte';
 
 	let data;
 	let tripId = '';
-	let trip = null;
 
 	onMount(async () => {
-        const response = await fetch(`${base}/data/data.json`);
+		const response = await fetch(`${base}/data/data.json`);
 		if (response.ok) {
-            data = await response.json();
+			data = await response.json();
 			tripId = data.trips[0].id;
 		} else {
-            console.error('Failed to fetch data:', response.status);
+			console.error('Failed to fetch data:', response.status);
 		}
 	});
-    
-	$: trip = data?.trips.find((v) => v.id === tripId);
+
+	$: if (data && tripId) {
+		trip.set(data?.trips.find((v) => v.id === tripId));
+	}
 </script>
 
 <div class="container">
@@ -33,8 +35,8 @@
 	</div>
 
 	<!-- Affichage du voyage -->
-	{#if trip}
-		{#each trip.days as day, dayIndex}
+	{#if $trip}
+		{#each $trip.days as day, dayIndex}
 			<div class="row">
 				<div class="accordion" id="accordion{dayIndex}">
 					<div class="accordion-item">
@@ -47,8 +49,8 @@
 								data-bs-target="#collapse{dayIndex}"
 								aria-expanded="true"
 								aria-controls="collapse{dayIndex}"
-							>                  
-                                <DayHeader day={day} trip={trip} />				
+							>
+								<DayHeader day={day} />
 							</button>
 						</h2>
 						<!-- Contenu -->
@@ -59,7 +61,7 @@
 							data-bs-parent="#accordion{dayIndex}"
 						>
 							<div class="accordion-body p-0">
-								<Day day={day} trip={trip} />
+								<Day day={day} />
 							</div>
 						</div>
 					</div>

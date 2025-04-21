@@ -1,12 +1,12 @@
 <script>
 	import DayStep from '$lib/components/DayStep.svelte';
+    import { trip } from '$lib/components/store.js';
 
 	export let day;
-	export let trip;
 
 	function getAccommodation(date) {
 		let d = new Date(date);
-		return trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
+		return $trip?.accommodations.find((x) => new Date(x.from) <= d && d < new Date(x.to));
 	}
 
 	$: accommodation = getAccommodation(day.date);
@@ -19,7 +19,6 @@
 				top={stepIndex != 0}
 				bottom={stepIndex != day.steps.length - 1 || accommodation != undefined}
 				step={step}
-				countryCurrency={trip?.currency}
 			/>
 		{/each}
 	{/if}
@@ -28,7 +27,6 @@
 			top={true}
 			bottom={false}
 			step={accommodation}
-			countryCurrency={trip?.currency}
 		/>
 	{/if}
 </div>

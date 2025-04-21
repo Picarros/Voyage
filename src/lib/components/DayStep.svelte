@@ -8,7 +8,6 @@
 	export let top;
 	export let bottom;
 	export let step;
-	export let countryCurrency;
 </script>
 
 <div class="row align-self-center flex-nowrap">
@@ -24,7 +23,7 @@
                 {step.description}
             </span>
             <span>
-                <Price price={step.price} currency={step.currency} {countryCurrency} />
+                <Price price={step.price} currency={step.currency} />
             </span>
         </p>
         <p class="m-0">
