@@ -55,7 +55,7 @@
 </script>
 
 {#if priceEUR && priceCUR}
-	<span style="font-size: 0.8rem;" class="fst-italic">
+	<span class="fst-italic">
 		(<span class={currency == 'EUR' ? 'text-decoration-underline' : ''}>{priceEUR}</span>
 		{#if countryCurrency != 'EUR'} / 
 			<span class={currency != 'EUR' ? 'text-decoration-underline' : ''}>{priceCUR}</span>

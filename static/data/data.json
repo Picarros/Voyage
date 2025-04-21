@@ -1038,6 +1038,7 @@
                     "address": "https://maps.app.goo.gl/PAFfQr9hNTgdT4hX8",
                     "price": "794.95",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in en autonomie à partir de 15h.<br>Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
                 },
                 {
@@ -1048,6 +1049,7 @@
                     "address": "https://maps.app.goo.gl/3LGnq3ZkgkGw2jDRA",
                     "price": "756",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4619864205) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
                 },
                 {
@@ -1058,6 +1060,7 @@
                     "address": "https://maps.app.goo.gl/7a621QZxByLKVudY7",
                     "price": "1767",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?<br> Remplir ce qu'il faut <a href=\"https://guests-portal.web.app/login/223/\" target=\"_blank\">ici</a> au moins 3 jours avant",
                     "danger": "Le check-in s'effectue à côté de la gare, <a href=\"https://maps.app.goo.gl/Kz9Y3ssyi58NnZsy5\" target=\"_blank\">ici</a>"
                 },
@@ -1069,6 +1072,7 @@
                     "address": "https://maps.app.goo.gl/U3gJEFCimwFuihrp9",
                     "price": "176",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 15h.<br>Onsen à l'intérieur de l'hôtel"
                 },
                 {
@@ -1079,6 +1083,7 @@
                     "address": "https://maps.app.goo.gl/LTz2TUUBjiL84piB6",
                     "price": "153",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 10h30.<br>Récupération depuis la gare !<br>Demander le petit-déjeuner à l'avance.",
                     "danger": "Demander si on peut laisser les valises de 10h à 15h le temps de changer de Ryokan"
                 },
@@ -1090,6 +1095,7 @@
                     "address": "https://maps.app.goo.gl/aWx6BqDooVCeS6vZA",
                     "price": "105500",
                     "currency": "JPY",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 15h.<br>Diner et petit-déjeuner inclut.<br> Contact : <a href=\"mailto:connie@elitetoursint.com\" target=\"_blank\">connie@elitetoursint.com</a>"
                 },
                 {
@@ -1100,6 +1106,7 @@
                     "address": "https://maps.app.goo.gl/wtBfqSfQTuhbAEi49",
                     "price": "523",
                     "currency": "EUR",
+                    "personNumber": "5",
                     "note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4616990782) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
                 }
             ],
