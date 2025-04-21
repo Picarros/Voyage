@@ -208,8 +208,9 @@
                             "currency": "JPY"
                         },
                         {
-                            "type": "",
-                            "description": "Tokyo - Akihabara"
+                            "type": "activity",
+                            "description": "Visite du quartier d'Akihabara",
+                            "note": "On peut faire plus d'autres choses si on est en forme"
                         }
                     ]
                 },
@@ -257,10 +258,6 @@
                     "date": "2025-08-09",
                     "description": "Nikko (日光)",
                     "steps": [
-                        {
-                            "type": "",
-                            "description": "Nikko"
-                        },
                         {
                             "type": "train",
                             "description": "Asakusa - Tobu-Nikko",
@@ -369,8 +366,23 @@
                             "address": "https://maps.app.goo.gl/gaqnoYvFqQAgfCAHA"
                         },
                         {
-                            "type": "",
-                            "description": "Kyoto Centre ?"
+                            "type": "castle",
+                            "description": "Nijō-jō",
+                            "price": "800",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/6egmWCbUVxyW5Z1HA"
+                        },
+                        {
+                            "type": "shopping",
+                            "description": "Shinkyogoku Shopping Street",
+                            "address": "https://maps.app.goo.gl/CZdK9MbEQe4hVJJR6",
+                            "note": "Rue commerçante"
+                        },
+                        {
+                            "type": "eat",
+                            "description": "Nishiki market",
+                            "address": "https://maps.app.goo.gl/NHseiinMr4iv9FAX6",
+                            "note": "Super marché avec beaucoup de street food"
                         }
                     ]
                 },
@@ -379,8 +391,86 @@
                     "description": "Kyoto (京都市) : Est",
                     "steps": [
                         {
-                            "type": "",
-                            "description": "Kyoto Est"
+                            "type": "activity",
+                            "description": "Hokan-ji",
+                            "address": "https://maps.app.goo.gl/y8T2Jd7cfoEHLZ8G8",
+                            "note": "Venir assez tôt pour éviter la foule"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Ninenzaka walkway",
+                            "address": "https://maps.app.goo.gl/3AdA9QbtqDwLTg376"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Sannenzaka",
+                            "address": "https://maps.app.goo.gl/aZX7LxkzKvt7UiEZ8"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kiyomizu-dera",
+                            "price": "500",
+                            "currency": "JPY",
+                            "address": "https://maps.app.goo.gl/t8ue3AUxuCKZgzGG7",
+                            "note": "Temple très joli avec une vue sur la ville de Kyoto, revenir le soir pour le coucher du soleil ?"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Gion",
+                            "address": "https://maps.app.goo.gl/zBeatDkN6MqzKiQ39",
+                            "note": "Tout le quartier a l'air sympa"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Yasaka-jinja",
+                            "address": "https://maps.app.goo.gl/ttux6j2iES5nuA3z7"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Shirakawa Canal",
+                            "address": "https://maps.app.goo.gl/ZP2S7gUZzXnzq3r26"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Heian-jingū",
+                            "address": "https://maps.app.goo.gl/D9B9cVEWZieXzCom7"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Okazaki Shrine",
+                            "address": "https://maps.app.goo.gl/91NWr1FTnCCdfjzo9"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Nanzen-ji",
+                            "address": "https://maps.app.goo.gl/mn5tgaLRsEeTjgBN7"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Ōtoyo Shrine",
+                            "address": "https://maps.app.goo.gl/GPG2UVUpL17Rd6pr9"
+                        },
+                        {
+                            "type": "hike",
+                            "description": "Le chemin de la Philosophie",
+                            "address": "https://maps.app.goo.gl/17AfapLNh2RBxvADA",
+                            "note": "Chemin sympa le long de l'eau pour aller d'un temple à un autre"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Anraku-ji Temple",
+                            "address": "https://maps.app.goo.gl/DqHKvwR1TgTH1Ezn8"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Hōnenin Temple",
+                            "address": "https://maps.app.goo.gl/J6DzVoKmPoN4UrnJ8"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Ginkaku-ji",
+                            "address": "https://maps.app.goo.gl/BnNSrwa1Z9oWr7359",
+                            "note": "Pavillon d'Argent"
                         }
                     ]
                 },
@@ -388,10 +478,6 @@
                     "date": "2025-08-13",
                     "description": "Osaka (大阪市)",
                     "steps": [
-                        {
-                            "type": "",
-                            "description": "Osaka"
-                        },
                         {
                             "type": "commute",
                             "description": "Kyoto - Katsuō-ji",
@@ -479,10 +565,6 @@
                     "description": "Nara (奈良市)",
                     "steps": [
                         {
-                            "type": "",
-                            "description": "Nara"
-                        },
-                        {
                             "type": "train",
                             "description": "Marutamachi  - Takeda",
                             "duration": "15min",
@@ -551,8 +633,73 @@
                     "description": "Kyoto (京都市) : Ouest",
                     "steps": [
                         {
-                            "type": "",
-                            "description": "Kyoto Ouest"
+                            "type": "activity",
+                            "description": "Forêt de Kimonos",
+                            "address": "https://maps.app.goo.gl/UL1sgfd1u67n1nS29"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Tenryu-ji",
+                            "address": "https://maps.app.goo.gl/2CBxGXGo8dvpYvwZ8",
+                            "note": "Venir tôt aussi"
+                        },
+                        {
+                            "type": "nature",
+                            "description": "Forêt de bambous",
+                            "address": "https://maps.app.goo.gl/1YSCHCTDCjCpyx4L7"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Togetsukyō Bridge",
+                            "address": "https://maps.app.goo.gl/fyotWEKfsn8ZaN9D8"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Giō-ji",
+                            "address": "https://maps.app.goo.gl/UdTytrJMvfrzpGCKA",
+                            "note": "Temple avec mousse"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Adashino Nenbutsuji Temple",
+                            "address": "https://maps.app.goo.gl/P4gM12iAWfB9dGg49",
+                            "note": "Temple avec petites statues"
+                        },
+                        {
+                            "type": "commute",
+                            "description": "Aller vers les autres temples"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Ninna-ji",
+                            "address": "https://maps.app.goo.gl/o5tMc7XoUsoqUDrp7"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Ryoan-ji",
+                            "address": "https://maps.app.goo.gl/Rq1RPG3RxbHgRQ9b7"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kinkaku-ji",
+                            "address": "https://maps.app.goo.gl/paTYGf5grSqk484C6"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kinkaku-ji",
+                            "address": "https://maps.app.goo.gl/paTYGf5grSqk484C6",
+                            "note": "Pavillon d'Or"
+                        },
+                        {
+                            "type": "temple",
+                            "description": "Kitano Tenman-gū",
+                            "address": "https://maps.app.goo.gl/BsizigKUyg3qLGMWA"
+                        },
+                        {
+                            "type": "activity",
+                            "description": "Kamishichiken",
+                            "address": "https://maps.app.goo.gl/4ha8j32p6DDZWwyW8",
+                            "note": "Quartier Geishas"
                         }
                     ]
                 },
