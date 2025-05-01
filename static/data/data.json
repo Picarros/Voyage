@@ -1039,7 +1039,7 @@
                     "price": "794.95",
                     "currency": "EUR",
                     "personNumber": "5",
-                    "note": "Check-in en autonomie à partir de 15h.<br>Remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a>"
+                    "note": "Check-in en autonomie à partir de 15h.<br>Le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfVXzyWnrHd7g6f9KHUIePqSdTsVQuQ5-PSUJSXJCMLMbMTpQ/viewform?usp=sf_link\" target=\"_blank\">Google Form</a> est rempli !"
                 },
                 {
                     "type": "hotel",
@@ -1050,7 +1050,7 @@
                     "price": "756",
                     "currency": "EUR",
                     "personNumber": "5",
-                    "note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4619864205) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
+                    "note": "Check-in à partir de 16h.<br>Passeports envoyés à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
                 },
                 {
                     "type": "hotel",
@@ -1107,7 +1107,7 @@
                     "price": "523",
                     "currency": "EUR",
                     "personNumber": "5",
-                    "note": "Check-in à partir de 16h.<br>Envoyer une photo des passeports avec le numéro de réservation Booking (4616990782) à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
+                    "note": "Check-in à partir de 16h.<br>Passeports envoyés à cette adresse mail : <a href=\"mailto:foresthouse@morijuken.co.jp\" target=\"_blank\">foresthouse@morijuken.co.jp</a>"
                 }
             ],
             "events": [
