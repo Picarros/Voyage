@@ -1061,7 +1061,7 @@
                     "price": "1767",
                     "currency": "EUR",
                     "personNumber": "5",
-                    "note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?<br> Remplir ce qu'il faut <a href=\"https://guests-portal.web.app/login/223/\" target=\"_blank\">ici</a> au moins 3 jours avant",
+                    "note": "Check-in à partir de 15h.<br>Gion complet ! Petite navette pour nous emmener sur place ?<br>Le <a href=\"https://guests-portal.web.app/login/223/\" target=\"_blank\">formulaire</a> a été rempli.",
                     "danger": "Le check-in s'effectue à côté de la gare, <a href=\"https://maps.app.goo.gl/Kz9Y3ssyi58NnZsy5\" target=\"_blank\">ici</a>"
                 },
                 {
@@ -1084,7 +1084,7 @@
                     "price": "153",
                     "currency": "EUR",
                     "personNumber": "5",
-                    "note": "Check-in à partir de 10h30.<br>Récupération depuis la gare !<br>Demander le petit-déjeuner à l'avance.",
+                    "note": "Check-in à partir de 10h30.<br>Récupération depuis la gare, envoyer un message quand on sait l'horaire !<br>Petit-déjeuner demandé.",
                     "danger": "Demander si on peut laisser les valises de 10h à 15h le temps de changer de Ryokan"
                 },
                 {
