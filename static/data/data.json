@@ -964,7 +964,7 @@
                             "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
                         },
                         {
-                            "type": "food",
+                            "type": "eat",
                             "description": "Ginza Happo, buffet illimité",
                             "address": "https://maps.app.goo.gl/xxykSr7HNPVUtvjT6",
                             "time": "19:00",
