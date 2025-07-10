@@ -203,6 +203,8 @@
                             "type": "tgv",
                             "description": "Shin-Aomori - Ueno",
                             "address": "https://maps.app.goo.gl/T4V3rkjigB3FuFFo6",
+                            "time": "11:22",
+                            "utc": "+9",
                             "duration": "3h20",
                             "price": "17460",
                             "currency": "JPY"
@@ -960,6 +962,17 @@
                             "type": "",
                             "description": "Avant avant dernier jour à Tokyo (shopping ?)",
                             "note": "A definir ce qu'on veut faire en fonction de notre fatigue"
+                        },
+                        {
+                            "type": "food",
+                            "description": "Ginza Happo, buffet illimité",
+                            "address": "https://maps.app.goo.gl/xxykSr7HNPVUtvjT6",
+                            "time": "19:00",
+                            "duration": "2h",
+                            "utc": "+9",
+                            "price": "12000",
+                            "currency": "yen",
+                            "note": "Voir mail du 10 juillet. Pour gérer la réservation : <a href=\"https://www.hotpepper.jp/CSP/prds40?reserveNo=SCM654120" target=\"_blank\">Ici.</a>"
                         }
                     ]
                 },
