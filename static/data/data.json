@@ -207,7 +207,8 @@
                             "utc": "+9",
                             "duration": "3h20",
                             "price": "17460",
-                            "currency": "JPY"
+                            "currency": "JPY",
+                            "note": "Hayabusa 56"
                         },
                         {
                             "type": "activity",
@@ -362,7 +363,8 @@
                             "utc": "+9",
                             "price": "13320",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/NKgX1bots5ej8jfo8"
+                            "address": "https://maps.app.goo.gl/NKgX1bots5ej8jfo8",
+                            "note" : "Nozomi 353"
                         },
                         {
                             "type": "",
@@ -794,18 +796,25 @@
                         {
                             "type": "train",
                             "description": "Kyoto - Tsuruga",
+                            "time": "12:10",
+                            "utc": "+9",
                             "duration": "55min",
                             "price": "3420",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/UdxAXYpDbaEDSPW58"
+                            "address": "https://maps.app.goo.gl/UdxAXYpDbaEDSPW58",
+                            "note" : "Thunder-Bird 85",
+                            "danger": "14 minutes pour faire la correspondance (il faut monter de deux niveaux).
                         },
                         {
                             "type": "tgv",
                             "description": "Tsuruga - Kanazawa",
+                            "time": "13:03",
+                            "utc": "+9",
                             "duration": "1h",
                             "price": "5480",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/7Vi9PvXrANYtY6548"
+                            "address": "https://maps.app.goo.gl/7Vi9PvXrANYtY6548",
+                            "note" : "Tsurugi 86"
                         },
                         {
                             "type": "activity",
