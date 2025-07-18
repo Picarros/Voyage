@@ -1136,6 +1136,21 @@
             ],
             "events": [
                 {
+                    "description": "Neputa Matsuri",
+                    "from": "2025-08-01",
+                    "to": "2025-08-07"
+                },
+                {
+                    "description": "Nebuta Matsuri",
+                    "from": "2025-08-02",
+                    "to": "2025-08-07"
+                },
+                {
+                    "description": "Nara Tokae",
+                    "from": "2025-08-05",
+                    "to": "2025-08-14"
+                },
+                {
                     "description": "O-Bon",
                     "from": "2025-08-13",
                     "to": "2025-08-16"
