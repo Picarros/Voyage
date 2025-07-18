@@ -881,17 +881,24 @@
                             "type": "tgv",
                             "description": "Kanazawa - Nagano",
                             "duration": "1h20",
+                            "time": "10:05",
+                            "utc": "+9",
                             "price": "8590",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/AqMTKwUV5M5rdMeT9"
+                            "address": "https://maps.app.goo.gl/AqMTKwUV5M5rdMeT9",
+                            "note": "Kagayaki 508"
                         },
                         {
                             "type": "train",
                             "description": "Nagano - Yudanaka",
                             "duration": "1h",
+                            "time": "11:33",
+                            "utc": "+9",
                             "price": "1190",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
+                            "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7",
+                            "note": "Nagano-Dentetsu Line vers Yudanka",
+                            "danger": "33 minutes pour faire la correspondance (billets pas pris)"
                         },
                         {
                             "type": "taxi",
