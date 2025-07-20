@@ -958,23 +958,24 @@
                             "type": "train",
                             "description": "Yudanaka - Nagano",
                             "duration": "1h",
+                            "time": "10:50",
+                            "utc": "+9",
                             "price": "1190",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/pJ3MsthxbhkigpXD8"
-                        },
-                        {
-                            "type": "",
-                            "description": "Visite rapide de la ville de Nagano et manger ?",
-                            "address": "https://maps.app.goo.gl/nppXYqeU5mvZ95mk6",
-                            "note": "Laisser les valises dans une consigne à bagages à la gare"
+                            "address": "https://maps.app.goo.gl/pJ3MsthxbhkigpXD8",
+                            "note": "Nagano - Dentetsu Line"
                         },
                         {
                             "type": "tgv",
                             "description": "Nagano - Tokyo",
                             "duration": "1h30",
+                            "time": "12:26",
+                            "utc": "+9",
                             "price": "7810",
                             "currency": "JPY",
-                            "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7"
+                            "address": "https://maps.app.goo.gl/hmYQAqnX9bSvuMwr7",
+                            "note": "Hakutaka 560",
+                            "danger": "50 minutes pour faire le changement"
                         },
                         {
                             "type": "",
