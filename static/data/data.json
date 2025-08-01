@@ -266,7 +266,7 @@
                             "utc": "+9",
                             "duration": "2h",
                             "note": "Vu qu'on est 5, on devrait avoir une petite salle privée pour nous !",
-                            "warning": "Ne pas mettre de parfum ! J'ai déjà payé ¥44.000 pour la réservation, mais ils devront être remboursés dans les semaines qui suivent. Sur place il faudra payer pour de vrai (le repas), notamment s'il y a des boissons en plus."
+                            "danger": "Ne pas mettre de parfum ! J'ai déjà payé ¥44.000 pour la réservation, mais ils devront être remboursés dans les semaines qui suivent. Sur place il faudra payer pour de vrai (le repas), notamment s'il y a des boissons en plus."
                         }
                     ]
                 },
